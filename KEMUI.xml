@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="windows-1251"?><Source>
+	<language xml:lang="ru-ru"/>
+	<ResourceInclude FILE="KEMUI.xmlres"/>
+	<!-- String Sets  -->
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+		<String ALIAS="WINDOW_CAPTION" FONT="Arial">SetPoint^T^M</String>
+		<String ALIAS="MYMOUSE">Моя мышь</String>
+		<String ALIAS="MYKEYBOARD">Моя клавиатура</String>
+		<String ALIAS="MYMEDIAPAD">Цифровая панель</String>
+		<String ALIAS="TOOLS">Инструменты</String>
+		<String ALIAS="IDS_SCROLLLINE_SCREEN">Экран</String>
+		<String ALIAS="IDS_SCROLLLINE_NONE">Отсутствует</String>
+		<String ALIAS="IDS_SCROLLLINE">Строка</String>
+		<String ALIAS="IDS_SCROLLLINES">Строк</String>
+		<String ALIAS="IDS_CONNECT_MOUSE" FONT="Arial">Подключение мыши</String>
+		<String ALIAS="IDS_CONNECT_KEYBOARD" FONT="Arial">Подключение клавиатуры</String>
+		<String ALIAS="IDS_CONNECT_MEDIAPAD" FONT="Arial">Подключение панели MediaPad</String>
+		<String ALIAS="IDS_CONNECT_REMOTE" FONT="Arial">Подключение цифровой панели</String>
+		<String ALIAS="IDS_DEVICE_CONNECT_DESC" FONT="Arial">Чтобы переподключить устройство %s или другое устрой. Bluetooth®, нажмите "Подключить".</String>
+		<String ALIAS="IDS_MOUSE">Мышь</String>
+		<String ALIAS="IDS_KEYBOARD">Клавиатура</String>
+		<String ALIAS="IDS_MEDIAPAD">Цифровая панель</String>
+		<String ALIAS="IDS_SELECT_HOTKEY" FONT="Arial">Спец. клавиша</String>
+		<String ALIAS="IDS_SELECT_FKEY" FONT="Arial">Выберите F-клавишу</String>
+		<String ALIAS="IDS_RESTORE_DEFAULT" FONT="Arial">Задача по умолчанию</String>
+		<String ALIAS="IDS_OTHER" FONT="Arial">Другое</String>
+		<String ALIAS="IDS_SELECT_MOUSE" FONT="Arial">Выберите мышь</String>
+		<String ALIAS="IDS_SELECT_KEYBOARD" FONT="Arial">Клавиатура</String>
+		<String ALIAS="IDS_SELECT_MEDIAPAD" FONT="Arial">Выберите панель MediaPad</String>
+		<String ALIAS="IDS_SELECT_REMOTE" FONT="Arial">Выберите панель</String>
+		<String ALIAS="KODIAK_SETTINGS">Настройка SetPoint</String>
+		<String ALIAS="IDS_APPLY_BUTTON" FONT="Arial">Применить</String>
+		<String ALIAS="IDS_CANCEL_BUTTON" FONT="Arial">Отмена</String>
+		<String ALIAS="IDS_OK_BUTTON" FONT="Arial">ОК</String>
+		<String ALIAS="WINDOW_CAPTION_FONTHEIGHT">16</String>
+		<String ALIAS="TAB_CAPTION_FONTHEIGHT">9</String>
+		<String ALIAS="USE_JAPANESE_LOGO">0</String>
+		<String ALIAS="TOOLS_INFORMATION_TOOLTIP" FONT="Arial">Настройка информации о средствах</String>
+		<String ALIAS="MOUSE_BUTTONSETTINGS_TOOLTIP" FONT="Arial">Настройка кнопок мыши</String>
+    <String ALIAS="MOUSE_MOVEMENT_TOOLTIP" FONT="Arial">Настройки указателя и прокрутки</String>
+    <String ALIAS="MOUSE_GAMING_TOOLTIP" FONT="Arial">Настройки мыши для игры</String>
+		<String ALIAS="MOUSE_CONNECTION_TOOLTIP" FONT="Arial">Подключение мыши</String>
+		<String ALIAS="MOUSE_BATTERIES_TOOLTIP" FONT="Arial">Батареи мыши</String>
+		<String ALIAS="KEYBOARD_HOTKEYSETTINGS_TOOLTIP" FONT="Arial">Настройка специальных клавиш клавиатуры</String>
+		<String ALIAS="KEYBOARD_FKEYSETTINGS_TOOLTIP" FONT="Arial">Настройка F-клавиш клавиатуры</String>
+		<String ALIAS="KEYBOARD_INAVSETTINGS_TOOLTIP" FONT="Arial">Настройка клавиатуры iNav</String>
+		<String ALIAS="KEYBOARD_CONNECTION_TOOLTIP" FONT="Arial">Подключение клавиатуры</String>
+		<String ALIAS="KEYBOARD_BATTERIES_TOOLTIP" FONT="Arial">Батареи клавиатуры</String>
+		<String ALIAS="MEDIAPAD_PREFERENCES_TOOLTIP" FONT="Arial">Параметры цифровой панели</String>
+		<String ALIAS="MEDIAPAD_MEDIAPLAYER_TOOLTIP" FONT="Arial">Настройка кнопок цифровой панели</String>
+		<String ALIAS="MEDIAPAD_CONNECTION_TOOLTIP" FONT="Arial">Подключение цифровой панели</String>
+		<String ALIAS="MEDIAPAD_BATTERIES_TOOLTIP" FONT="Arial">Батарейки цифровой панели</String>
+		<String ALIAS="TOOLS_INFO_RESOURCES_TOOLTIP" FONT="Arial">Информационные ресурсы</String>
+		<String ALIAS="TOOLS_BT_INFO_RESOURCES_TOOLTIP">Ресурсы Bluetooth®</String>
+		<String ALIAS="TOOLS_INDICATOR_TOOLTIP">Параметры SetPoint</String>
+		<String ALIAS="TOOLS_TOOLTIP">Общая настройка</String>
+		<String ALIAS="MEDIAPAD_TOOLTIP">Настройка цифровой панели</String>
+		<String ALIAS="MYKEYBOARD_TOOLTIP">Настройка клавиатуры</String>
+		<String ALIAS="MYMOUSE_TOOLTIP">Настройка мыши</String>
+		<String ALIAS="KEYBOARD_MUSICLISTMGMT_TOOLTIP">управление списком музыки</String>
+		<String ALIAS="KEYBOARD_PREFERENCES_TOOLTIP">Настройки ЖК-экрана клавиатуры</String>
+    <String ALIAS="DJ_INFORMATION_TOOLTIP">Настройки сопряжения</String>
+    <String ALIAS="MOUSE_ADVANCED_SETTINGS_TOOLTIP">Дополнительные настройки</String>
+    <String ALIAS="ILLUMINATION_SETTINGS_TOOLTIP">Настройки подсветки</String>
+    <String ALIAS="NEW_FEATURE_SETTINGS_TOOLTIP">Настройки новых функций</String>
+    <String ALIAS="SOLAR_DASHBOARD_SETTINGS_TOOLTIP">Настройки Solar App</String>
+    <String ALIAS="DEVICE_TRACKPAD_TOOLTIP">Настройки сенсорной панели</String>
+    <String ALIAS="MOUSE_GESTURE_CONTENT_NAV_TOOLTIP">Прокрутка</String>
+    <String ALIAS="MOUSE_GESTURE_SCROLLZOOM_NAV_TOOLTIP">Прокрутка и изменение масштаба</String>
+    <String ALIAS="MOUSE_GESTURE_POINTCLICK_TOOLTIP">Указание и щелчки</String>
+    <String ALIAS="MOUSE_GESTURE_WINDOWS_NAV_TOOLTIP">Навигация в Windows</String>
+    <String ALIAS="IDS_KEYBOARD_SECURE_CONNECT_DESC">Для включения надежного шифрования выхода клавиатуры, которое не позволяет обнаруживать нажатия клавиш с помощью другого компьютера, нажмите кнопку "Безопасность".</String>
+		<String ALIAS="IDS_CONNECT">Подключить</String>
+		<String ALIAS="IDS_SECURE">Безопасность</String>
+		<String ALIAS="IDS_SECURED">Клавиатура закреплена за компьютером</String>
+		<String ALIAS="IDS_UNSECURED">Клавиатура не закреплена за компьютером</String>
+		<String ALIAS="IDS_SCROLLINGSIZE">Шаг прокрутки</String>
+		<String ALIAS="IDS_KEYBOARD_ON_CHANNEL_1">Клавиатура подключена к каналу 1</String>
+		<String ALIAS="IDS_KEYBOARD_ON_CHANNEL_2">Клавиатура подключена к каналу 2</String>
+		<String ALIAS="IDS_RESTORE_BUTTON">Восст. параметры</String>
+		<String ALIAS="IDS_BROWSE_BUTTON">Обзор</String>
+		<String ALIAS="IDS_REMOVE_BUTTON">Удалить</String>
+		<String ALIAS="IDS_ADVANCED_GAMING_BUTTON">Еще настройки для игры...</String>
+		<String ALIAS="IDS_MOUSE_BATTERIES">Батареи мыши</String>
+		<String ALIAS="IDS_KEYBOARD_BATTERIES">Батареи клавиатуры</String>
+		<String ALIAS="IDS_MEDIAPAD_BATTERIES">Батареи панели MediaPad</String>
+		<String ALIAS="IDS_REMOTE_BATTERIES">Батарейки цифровой панели</String>
+		<String ALIAS="IDS_RECHARGE_MOUSE_HELPTEXT">Если при перезарядке мыши требуется помощь, нажмите ссылку "Справка в Интернете" ниже.</String>
+		<String ALIAS="IDS_RECHARGE_KEYBOARD_HELPTEXT">Если при перезарядке клавиатуры требуется помощь, нажмите ссылку "Справка в Интернете" ниже.</String>
+		<String ALIAS="IDS_CHANGE_BATTERY_HELPTEXT">Если при замене батарей требуется помощь, нажмите ссылку "Справка в Интернете" ниже.</String>
+		<String ALIAS="IDS_GAME_BROWSE_FILTER">Исполняемые файлы (*.exe)|*.exe||</String>
+		<String ALIAS="IDS_GAME_BROWSE_TITLE">Выберите игру</String>
+    <String ALIAS="IDC_DJ_RECEIVER_INFO">Подключите до шести совместимых беспроводных мышей и клавиатур к USB-приемнику Logitech Unifying или 2,4 ГГц.</String>
+    <String ALIAS="IDC_DJ_NUMPAD_INFO">Ваша цифровая панель использует приемник Unifying. Вы можете установить связь с шестью (максимум) совместимыми устройствами: беспроводными мышами, клавиатурами и цифровыми панелями при помощи лишь одного приемника Logitech Unifying.</String>
+    <String ALIAS="IDC_DJ_MOUSE_INFO">Ваша мышь использует приемник Unifying. Вы можете установить связь с шестью (максимум) совместимыми устройствами: беспроводными мышами, клавиатурами и цифровыми панелями при помощи лишь одного приемника Logitech Unifying.</String>
+    <String ALIAS="IDC_DJ_KEYBOARD_INFO">Ваша клавиатура использует приемник Unifying. Вы можете установить связь с шестью (максимум) совместимыми устройствами: беспроводными мышами, клавиатурами и цифровыми панелями при помощи лишь одного приемника Logitech Unifying.</String>
+    <String ALIAS="IDS_PS2_WARNING_MSG">Будут установлены драйверы PS/2 для ваших устройств Logitech PS/2. После установки драйверов нужно будет перезагрузить компьютер, чтобы программа SetPoint могла распознать эти устройства.</String>
+    <!-- for Manage Programs -->
+    <String ALIAS="IDS_ALL_PROGRAMS">Все программы</String>
+		<String ALIAS="IDS_ALL_OTHER_PROGRAMS">Все другие программы</String>
+		<String ALIAS="IDS_EXECUTABLE_FILES">Исполняемые файлы</String>
+		<String ALIAS="MEDIAPAD_NOTIFICATIONS_TOOLTIP">Настройка уведомлений цифровой панели</String>
+		<String ALIAS="KEYBOARD_NOTIFICATIONS_TOOLTIP">Настройка уведомлений клавиатуры</String>
+		<String ALIAS="MOUSE_NOTIFICATIONS_TOOLTIP">Настройка уведомлений мыши</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_20SEC">На 20 секунд</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_1MIN">На 60 секунд</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_5MIN">На 5 минут</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_10MIN">На 10 минут</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_15MIN">На 15 минут</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_30MIN">На 30 минут</String>
+		<String ALIAS="IDS_NOTIFICATION_FOR_1HR">На 1 час</String>
+		<String ALIAS="IDS_ALL_FILES">Все файлы</String>
+		<String ALIAS="IDS_MUSICLIST_MAX_ERR">Максимально допустимое число записей в списке MusicList равно %s. Удалите лишние записи на странице управления списком музыки</String>
+		<String ALIAS="SMARTWHEEL_TOOLTIP">Настройки SmartShift</String>
+		<String ALIAS="SMARTWHEEL_MXAIR_TOOLTIP">Настройки панели прокрутки</String>
+
+		<String ALIAS="ADVANCEDZOOM_TOOLTIP">Настройки масштабирования</String>
+		<String ALIAS="IDS_YES">Да</String>
+		<String ALIAS="IDS_NO">Нет</String>
+		<String ALIAS="IDS_PROGRAM">Программа</String>
+		<String ALIAS="IDS_FREEWHEEL">Свободное вращение</String>
+		<String ALIAS="IDS_MANUAL_SHIFT">Переключение вручную</String>
+		<String ALIAS="IDS_ORIENT_MOVEMOUSE">Перемещайте указатель в направлении облаков</String>
+		<String ALIAS="IDS_ORIENT_CANCEL">Для отмены нажмите кнопку ESC</String>
+		<String ALIAS="IDS_ORIENT_MAINTEXT">Эта функция позволяет установить устройство в новое положение.  Она предназначена для изменения положения переносного трекбола, но с ее помощью можно также подобрать более удобный угол положения мыши в руке.</String>
+		<String ALIAS="IDS_ORIENT_STARTPROMPT">Чтобы начать настройку, нажмите кнопку Set Orientation (Настроить ориентацию).</String>
+		<String ALIAS="IDS_WARNING">Внимание!</String>
+		<String ALIAS="IDS_ORIENT_NOTSTRAIGHT_ERROR">Линия перемещения устройства недостаточно прямая, чтобы настроить ориентацию.  Повторить настройку ориентации?</String>
+		<String ALIAS="IDS_ORIENT_SET">Ориентация настроена!</String>
+		<String ALIAS="IDS_ORIENT_NOMOVEMENT">Перемещение не обнаружено.  Повторить настройку ориентации?</String>
+		<String ALIAS="ORIENTATION_TOOLTIP">Настройки ориентации</String>
+		<String ALIAS="COMMUNICATION_MGR_TOOLTIP">Настройки диспетчера связи Logitech</String>
+		<String ALIAS="IDS_INSTALLED">Установлено правильно</String>
+		<String ALIAS="IDS_NOT_INSTALLED">Не установлен</String>
+		<String ALIAS="IDS_DOWNLOAD">Загрузить приложение</String>
+		<String ALIAS="IDS_LAUNCH">Запустить приложение</String>
+		<String ALIAS="DEVICE_TOUCHPAD_TOOLTIP">TouchDisc: движение</String>
+		<String ALIAS="TOUCHPAD_SCROLLSETTINGS_TOOLTIP">TouchDisc: параметры прокрутки</String>
+		<String ALIAS="IDS_SKYPE_DOWNLOAD_URL">www.logitech.com/setpoint/skype</String>
+		<String ALIAS="IDS_AOL_DOWNLOAD_URL">www.logitech.com/setpoint/aol</String>
+		<String ALIAS="IDS_YIM_DOWNLOAD_URL">www.logitech.com/setpoint/yahoo</String>
+		<String ALIAS="IDC_STATIC_TOUCHPAD_SCROLL_DESC">Панель TouchDisc позволяет выполнить быструю прокрутку по вертикали или по горизонтали.</String>
+		<String ALIAS="IDS_SKYPE_VERSION">Skype (версия 2.0 и более поздние)</String>
+		<String ALIAS="IDS_AIM_VERSION">AIM Triton (версия 1.2 и более поздние)</String>
+		<String ALIAS="IDS_YIM_VERSION">Yahoo! Messenger (версия 7.5 и более поздние)</String>
+		<String ALIAS="IDS_MICROGEAR_PRECISION_WHEEL">Настройки SmartShift</String>
+		<String ALIAS="IDS_SCROLL_PANEL">Настройки панели прокрутки</String>
+		<String ALIAS="KEYBOARD_INACTIVE_KEYS_TOOLTIP">Настройка неактивных клавиш клавиатуры</String>
+		<String ALIAS="IDS_SETPOINT_SUPPORT_DOWNLOAD">http://www.logitech.com/support_downloads</String>
+        <String ALIAS="IDS_SETPOINT_PRIVACY_WEBPAGE">https://www.logitech.com/legal/product-privacy-policy.html</String>
+        <String ALIAS="IDS_SETPOINT_EULA_ONLINE_PDF">http://www.logitech.com/assets/65580/logitech-eula.pdf</String>
+        <String ALIAS="IDS_ONLINE_LINK_EULA_TEXT1">Лицензионное соглашение с конечным пользователем</String>
+        <String ALIAS="IDS_ONLINE_LINK_EULA_TEXT2">  </String>
+        <String ALIAS="IDS_ONLINE_LINK_EULA_TEXT3">Лицензионное соглашение с конечным пользователем</String>
+        <String ALIAS="IDS_BEEP_CAPSLOCK">Звуковой сигнал при нажатии Caps Lock</String>
+		<String ALIAS="IDS_TOUCHDISC_SETTINGS">TouchDisc: параметры прокрутки</String>
+		<String ALIAS="IDS_TOUCHDISC_SETTINGS_DESC">Знаете ли вы, что панель TouchDisc действует как мышь? Чтобы изменить настройки панели TouchDisc, нажмите кнопку:</String>
+		<String ALIAS="IDS_TOUCHDISC_CONFIGURE">Настройка TouchDisc</String>
+		<String ALIAS="IDS_CLICKPAD_SETTINGS">Настройки ClickPad</String>
+		<String ALIAS="IDS_CLICKPAD_SETTINGS_DESC">Знаете ли вы, что панель ClickPad действует как мышь? Чтобы изменить настройки панели ClickPad, нажмите кнопку ниже:</String>
+		<String ALIAS="IDS_CLICKPAD_CONFIGURE">Настройка ClickPad</String>
+    <String ALIAS="IDS_DJUNIFY_DOWNLOAD">www.logitech.com/sw/unifying</String>
+    <String ALIAS="IDS_SOLAR_DASHBOARD_DOWNLOAD">www.logitech.com/K750/solarapp</String>
+    <String ALIAS="IDS_SETPOINT_USER_EXPERIENCE">www.logitech.com/index.cfm/support_downloads/articles/4509&amp;cl=ru,ru</String>
+    <String ALIAS="IDS_OSD_POSITION_BOTTOM_CENTER">внизу, по центру</String>
+    <String ALIAS="IDS_OSD_POSITION_CENTER_CENTER">по центру, по центру</String>
+    <String ALIAS="IDS_OSD_POSITION_TOP_CENTER">вверху, по центру</String>
+    <String ALIAS="IDS_OSD_POSITION_LEFT_CENTER">слева, по центру</String>
+    <String ALIAS="IDS_OSD_POSITION_RIGHT_CENTER">справа, по центру</String>
+
+    <String ALIAS="IDS_HEADER_HOTKEY" FONT="Arial">Настройки специальных клавиш</String>
+    <String ALIAS="IDS_HEADER_FKEY" FONT="Arial">Настройки F-клавиш</String>
+    <String ALIAS="IDS_FUTURE_DEVICE_WARNING" FONT="Arial">Если у вашего устройства есть функции, для использования которых требуется программное обеспечение, нужно будет воспользоваться обновленной версией программы SetPoint, чтобы использовать эти функции. Основные функции устройства будут работать и без установки нового программного обеспечения. Нажмите "Проверить наличие обновлений", чтобы посмотреть, есть ли доступные обновления.</String>
+    <String ALIAS="IDS_NO_SOFTWARE_NEEDED" FONT="Arial">Не нужно никакого программного обеспечения</String>
+
+    <String ALIAS="IDS_SETPOINT_CAPTION">Logitech SetPoint</String>
+    <String ALIAS="IDS_TOOLS_SETTINGS">Настройка инструментов</String>
+    <String ALIAS="IDS_CHECK_APPSETTINGS_PREDEFINED">Разрешить предварительно заданные уникальные настройки кнопок для конкретных приложений.</String>
+    <String ALIAS="IDS_CHECK_APPSETTINGS_NONPREDEFINED">Разрешить уникальные настройки кнопок для конкретных приложений.\nСоздать собственные назначения кнопкам для отдельных приложений</String>
+    <String ALIAS="IDS_CHECK_WHEEL_SETTINGS">Разрешить уникальные настройки колесика для конкретных приложений</String>
+    <String ALIAS="IDS_CHECK_SCROLL_SETTINGS">Разрешить уникальные настройки прокрутки для конкретных приложений</String>
+
+
+    <!-- From Winuser.h -->
+		<String ALIAS="IDOK">1</String>
+		<String ALIAS="IDCANCEL">2</String>
+		<!-- OEM Customization Settings -->
+		<String ALIAS="IDS_SETPOINT_HELP_URL"/>
+		<String ALIAS="IDS_SETPOINT_ERGO_URL"/>
+		<String ALIAS="IDS_SETPOINT_BLUETOOTH_URL"/>
+		<String ALIAS="IDS_LOGO_FILE"/>
+		<String ALIAS="IDS_LOGOWHITE_FILE"/>
+    <String ALIAS="IDS_ONLINE_HELP_URL">www.logitech.com/index.cfm/utilities/redirect</String>
+    <String ALIAS="IDS_ONLINE_HELP_PARAM1">DevID</String>
+    <String ALIAS="IDS_ONLINE_HELP_PARAM2">LangID</String>
+    <String ALIAS="IDS_SELECT_DEVICE_BUTTON_FONT_SIZE">13</String>
+    <String ALIAS="IDS_SELECT_DEVICE_MENU_FONT_SIZE">11</String>
+    <String ALIAS="IDS_SELECT_DEVICE_BORDER_COLOR"/>
+    <String ALIAS="IDS_SELECT_DEVICE_MENU_HIGHLIGHT_COLOR">RGB(0,190,190)</String>
+    <String ALIAS="IDS_SELECT_DEVICE_USE_GRADIENT">1</String>
+    <!-- Featurestrings -->
+    <String ALIAS="IDS_NEW_FEATURE_POPUPTEXT">Ваши устройства Logitech работают нормально. Если вы хотите расширить их функциональные возможности при помощи новых программных функций, перечисленных ниже, нажмите кнопку "Установить обновления". Эти функции поддерживаются одним или несколькими из следующих устройств: %s</String>
+    <String ALIAS="IDS_NEWFEATURE">Обновление SetPoint</String>
+    <String ALIAS="IDS_HYBRID_PROBING">SetPoint</String>
+
+    <String ALIAS="FEATURE_0001">Набор функций</String>
+    <String ALIAS="FEATUREDESC_0001">Позволяет SetPoint обнаруживать функции, поддерживаемые устройством.</String>
+    <String ALIAS="FEATURE_0002">Информация о функциях</String>
+    <String ALIAS="FEATUREDESC_0002">Позволяет SetPoint определять, как функции реализуются данным устройством.</String>
+    <String ALIAS="FEATURE_0003">Версия микропрограммного обеспечения</String>
+    <String ALIAS="FEATUREDESC_0003">Показывает версию микропрограммного обеспечения устройства.</String>
+    <String ALIAS="FEATURE_0004">Серийный номер</String>
+    <String ALIAS="FEATUREDESC_0004">Показывает серийный номер устройства.</String>    
+    <String ALIAS="FEATURE_0005">Название и тип устройства</String>
+    <String ALIAS="FEATUREDESC_0005">Показывает название и тип устройства.</String>
+    <String ALIAS="FEATURE_00C0">Обновление микропрограммного обеспечения</String>
+    <String ALIAS="FEATUREDESC_00C0">Позволяет обновлять микропрограммное обеспечение устройства.</String>
+    <String ALIAS="FEATURE_1000">Сведения о батарее</String>
+    <String ALIAS="FEATUREDESC_1000">Показывает текущий заряд батареи и предупреждает о необходимости замены батареи или подзарядки устройства.</String>
+    <String ALIAS="FEATURE_1900">Звуковое уведомление</String>
+    <String ALIAS="FEATUREDESC_1900">Обновление, расширяющее возможности устройства в области звукового уведомления.</String>
+    <String ALIAS="FEATURE_1920">Управление звуком</String>
+    <String ALIAS="FEATUREDESC_1920">Обновление, расширяющее возможности устройства в области управления звуком.</String>
+    <String ALIAS="FEATURE_1940">Интернет-телефония</String>
+    <String ALIAS="FEATUREDESC_1940">Обновление для расширения возможностей устройства в области телефонной связи через Интернет (VOIP).</String>
+    <String ALIAS="FEATURE_1960">Видеовызовы</String>
+    <String ALIAS="FEATUREDESC_1960">Обновление для расширения возможностей устройства в области видеовызовов.</String>
+    <String ALIAS="FEATURE_1980">Подсветка</String>
+    <String ALIAS="FEATUREDESC_1980">Обновление для усовершенствования функции подсветки на вашем устройстве.</String>
+    <String ALIAS="FEATURE_1B00">Настройка кнопок</String>
+    <String ALIAS="FEATUREDESC_1B00">Позволяет назначать новые функции некоторым из кнопок устройства.</String>
+    <String ALIAS="FEATURE_1B01">Настройка кнопок</String>
+    <String ALIAS="FEATUREDESC_1B01">Позволяет назначать новые функции некоторым из кнопок устройства.</String>
+    <String ALIAS="FEATURE_1D4B">Обновление беспроводной связи</String>
+    <String ALIAS="FEATUREDESC_1D4B">Расширение возможностей SetPoint в области управления конфигурацией беспроводного устройства.</String>
+    <String ALIAS="FEATURE_2000">Функция указывающего устройства</String>
+    <String ALIAS="FEATUREDESC_2000">Обновление для расширения функциональных возможностей указывающего устройства.</String>
+    <String ALIAS="FEATURE_2100">Настройки прокрутки</String>
+    <String ALIAS="FEATUREDESC_2100">Расширенные настройки для изменения параметров устройства, касающихся прокрутки.</String>
+    <String ALIAS="FEATURE_2120">Плавная прокрутка</String>
+    <String ALIAS="FEATUREDESC_2120">Позволяет использовать более плавную прокрутку в некоторых приложениях.</String>
+    <String ALIAS="FEATURE_2200">Настройки указателя</String>
+    <String ALIAS="FEATUREDESC_2200">Расширенные настройки для изменения параметров устройства, касающихся указывания.</String>
+    <String ALIAS="FEATURE_2510">Управление профилями</String>
+    <String ALIAS="FEATUREDESC_2510">Обновление для усовершенствования управления профилями на устройстве.</String>
+    <String ALIAS="FEATURE_4000">Функция клавиатуры</String>
+    <String ALIAS="FEATUREDESC_4000">Обновление для расширения функциональных возможностей клавиатуры.</String>
+    <String ALIAS="FEATURE_40A0">Инверсия клавиш FN</String>
+    <String ALIAS="FEATUREDESC_40A0">Переключает назначение клавиш FN между стандартными функциями FN и дополнительными функциями клавиш.</String>
+    <String ALIAS="FEATURE_4100">Шифрование</String>
+    <String ALIAS="FEATUREDESC_4100">Выводит информацию о возможностях устройства в области шифрования.</String>
+    <String ALIAS="FEATURE_4301">Solar App</String>
+    <String ALIAS="FEATUREDESC_4301">Запускает средство для мониторинга запаса энергии устройства, работающего от солнечной батареи, и измерения интенсивности света в помещении.</String>
+    <String ALIAS="FEATURE_4400">Функция дисплея</String>
+    <String ALIAS="FEATUREDESC_4400">Обновление для расширения функциональных возможностей дисплея устройства.</String>
+    <String ALIAS="FEATURE_4520">Неактивная клавиша</String>
+    <String ALIAS="FEATUREDESC_4520">Возможность отключения клавиши, чтобы ее случайное нажатие не приводило ни к каким действиям.</String>
+    <String ALIAS="FEATURE_5500">Ползунки</String>
+    <String ALIAS="FEATUREDESC_5500">Расширенные параметры конфигурации ползунков на устройстве.</String>
+    <String ALIAS="FEATURE_6000">Функция сенсорной панели</String>
+    <String ALIAS="FEATUREDESC_6000">Обновление для расширения функциональных возможностей сенсорной панели.</String>
+    <String ALIAS="FEATURE_6010">Базовые настройки сенсорной панели</String>
+    <String ALIAS="FEATUREDESC_6010">Настройки, включающие имитацию щелчка касанием и другие базовые жесты.</String>
+    <String ALIAS="FEATURE_6011">Расширенные настройки сенсорной панели</String>
+    <String ALIAS="FEATUREDESC_6011">Расширенные настройки, включающие жесты на основе проведения по панели двумя, тремя и четырьмя пальцами.</String>
+    <String ALIAS="FEATURE_6020">Касание для выбора</String>
+    <String ALIAS="FEATUREDESC_6020">Возможность назначать сенсорной панели функцию левой кнопки мыши.</String>
+    <String ALIAS="FEATURE_6030">Отключить ускорение указателя</String>
+    <String ALIAS="FEATUREDESC_6030">Отключает ускорение указателя и позволяет операционной системе управлять параметрами устройства, касающимися указывания.</String>
+    <String ALIAS="FEATURE_6300">Распознавание рукописного текста</String>
+    <String ALIAS="FEATUREDESC_6300">Обновление для расширения возможностей устройства в области распознавания рукописного текста.</String>
+    <String ALIAS="FEATURE_FFFF">Неизвестная функция</String>
+    <String ALIAS="FEATUREDESC_FFFF">Новая функция, которую эта версия программы не может идентифицировать.</String>
+    <String ALIAS="IDC_KEYBOARD_LAUNCH_SOLAR_DASHBOARD2" FONT="Arial">Загрузить Solar App</String>
+    <String ALIAS="IDS_2_SECS">2 с</String>
+    <String ALIAS="IDS_5_SECS">5 с</String>
+    <String ALIAS="IDS_10_SECS">10 с</String>
+    <String ALIAS="IDS_20_SECS">20 с</String>
+    <String ALIAS="IDS_1_MIN">1 мин.</String>
+    <String ALIAS="IDS_3_MIN">3 мин.</String>
+    <String ALIAS="IDS_10_SECS">10 с</String>
+    <String ALIAS="IDS_20_SECS">20 с</String>
+    <String ALIAS="IDS_30_SECS">30 с</String>
+    <String ALIAS="IDS_1_MIN">1 мин.</String>
+    <String ALIAS="IDS_5_MINS">5 мин.</String>
+    <String ALIAS="IDS_10_MINS">10 мин.</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_START_SCREEN" FONT="Arial">Начальный экран</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_START_MENU" FONT="Arial">Меню "Пуск"</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_HORZ_SCROLL" FONT="Arial">Горизонтальная прокрутка</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_CHAUSEY_HORZ_SCROLL" FONT="Arial">Горизонтальная прокрутка во всех приложениях</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_BACK_FORWARD" FONT="Arial">Назад и вперед</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_CHAUSEY_BACK_FORWARD" FONT="Arial">Вперед/назад в браузерах; гориз. прокрутка в прочих случаях</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_ONE_FINGER" FONT="Arial">Провести вверх и вниз 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_ONE_OR_TWO_FINGERS" FONT="Arial">Провести вверх и вниз 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_ONE_OR_MORE_FINGERS" FONT="Arial">Провести вверх и вниз 1 или более пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_TWO_FINGERS" FONT="Arial">Провести вверх и вниз 2 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_TWO_OR_MORE_FINGERS" FONT="Arial">Провести вверх и вниз 2 или более пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_THREE_FINGERS" FONT="Arial">Провести вверх и вниз 3 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_THREE_OR_MORE_FINGERS" FONT="Arial">Провести вверх и вниз 3 или более пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_OR_TAP_THREE_FINGERS" FONT="Arial">Провести вверх или коснуться 3 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_THREE_FINGERS" FONT="Arial">Провести вверх 3 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_FOUR_FINGERS" FONT="Arial">Провести вверх 4 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_DOWN_THREE_FINGERS" FONT="Arial">Провести вниз 3 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_UP_DOWN_FOUR_FINGERS" FONT="Arial">Провести вверх и вниз 4 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_DOWN_FOUR_FINGERS" FONT="Arial">Провести вниз 4 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_ONE_FINGER" FONT="Arial">Провести влево и вправо 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_ONE_OR_TWO_FINGERS" FONT="Arial">Провести влево и вправо 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_ONE_OR_MORE_FINGERS" FONT="Arial">Провести влево и вправо 1 или более пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_TWO_FINGERS" FONT="Arial">Провести влево и вправо 2 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_THREE_FINGERS" FONT="Arial">Провести влево и вправо 3 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_THREE_OR_MORE_FINGERS" FONT="Arial">Провести влево и вправо 3 или более пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_TWO_OR_MORE_FINGERS" FONT="Arial">Провести влево и вправо 2 или более пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_RIGHT_FOUR_FINGERS" FONT="Arial">Провести влево или вправо 4 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_THUMB_SWIPE" FONT="Arial">Провести большим пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_ONE_FINGER" FONT="Arial">Коснуться 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_TWO_FINGERS" FONT="Arial">Коснуться 2 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_THREE_FINGERS" FONT="Arial">Коснуться 3 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_FOUR_FINGERS" FONT="Arial">Коснуться 4 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_ONE_FINGER" FONT="Arial">Щелкнуть или коснуться 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_TWO_FINGERS" FONT="Arial">Щелкнуть или коснуться 2 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_THREE_FINGERS" FONT="Arial">Щелкнуть или коснуться 3 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LEFT_BUTTON_OR_TOUCH_STRIP_FRONT" FONT="Arial">Нажать левую кнопку мыши / пер. часть сенс. области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_BOTTOM_LEFT_CORNER" FONT="Arial">Щелкнуть или коснуться в левом нижнем углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_BOTTOM_RIGHT_CORNER" FONT="Arial">Щелкнуть или коснуться в правом нижнем углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_LOWER_LEFT_CORNER_ONE_FINGER" FONT="Arial">Щелкнуть или коснуться 1 пальцем в левом нижнем углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_LOWER_RIGHT_CORNER_ONE_FINGER" FONT="Arial">Щелкнуть или коснуться 1 пальцем в правом нижнем углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_TWO_FINGERS_OR_LOWER_LEFT_CORNER_ONE_FINGER" FONT="Arial">Щелкнуть или коснуться 2 пальцами или в левом углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_TAP_OR_CLICK_TWO_FINGERS_OR_LOWER_RIGHT_CORNER_ONE_FINGER" FONT="Arial">Щелкнуть или коснуться 2 пальцами или в правом углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_TOUCH_STRIP_FRONT" FONT="Arial">Дважды коснуться передней части сенсорной области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_TOUCH_STRIP_BACK" FONT="Arial">Дважды коснуться задней части сенсорной области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_ONE_FINGER" FONT="Arial">Дважды коснуться 1 пальцем сенс. поверх. в любом месте</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_TWO_FINGERS" FONT="Arial">Дважды коснуться 2 пальцами сенс. поверх. в любом месте</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_LOWER_ZONE_ONE_FINGER" FONT="Arial">Дважды коснуться 1 пальцем нижних 2/3 сенс. поверх.</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_LOWER_ZONE_TWO_FINGERS" FONT="Arial">Дважды коснуться 2 пальцами нижних 2/3 сенс. поверх.</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_LEFT_EDGE_ONE_FINGER" FONT="Arial">Провести от левого края 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_TOP_EDGE_ONE_FINGER" FONT="Arial">Провести от верхнего края 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_SWIPE_RIGHT_EDGE_ONE_FINGER" FONT="Arial">Провести от правого края 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_ROTATE_FINGER_ABOUT_THUMB" FONT="Arial">Повернуть палец вокруг большого пальца</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_ROTATE_TWO_FINGERS" FONT="Arial">Повернуть 2 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_PINCH_TWO_FINGERS" FONT="Arial">Развести или свести 2 пальца</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_KEYPLATE_BACK" FONT="Arial">Щелкнуть заднюю часть кнопочной пластины</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LEFT_BUTTON_OR_TOUCH_STRIP_FRONT" FONT="Arial">Нажать левую кнопку мыши / пер. часть сенс. области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_RIGHT_BUTTON" FONT="Arial">Щелкнуть правую кнопку мыши</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_ONE_FINGER" FONT="Arial">Щелкнуть 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_LEFT_CORNER_ONE_FINGER" FONT="Arial">Щелкнуть 1 пальцем в левом нижнем углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_RIGHT_CORNER_ONE_FINGER" FONT="Arial">Щелкнуть 1 пальцем в правом нижнем углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_TWO_FINGERS" FONT="Arial">Щелкнуть нижние 2/3 сенсорной области 2 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TWO_FINGERS" FONT="Arial">Щелкнуть 2 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TWO_FINGERS_OR_LOWER_LEFT_CORNER_ONE_FINGER" FONT="Arial">Щелкнуть 2 пальцами или в левом нижнем углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TWO_FINGERS_OR_LOWER_RIGHT_CORNER_ONE_FINGER" FONT="Arial">Щелкнуть 2 пальцами или в правом нижнем углу</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TWO_FINGERS_AND_MOVE_RIGHT" FONT="Arial">Щелкнуть 2 пальцами в нижней части и переместить мышь вправо</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TWO_FINGERS_AND_MOVE_LEFT" FONT="Arial">Щелкнуть 2 пальцами в нижней части и переместить мышь влево</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_THREE_FINGERS" FONT="Arial">Щелкнуть 3 пальцами</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LEFT_BUTTON" FONT="Arial">Щелкнуть левую кнопку мыши</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_RIGHT_BUTTON_OR_TOUCH_STRIP_FRONT" FONT="Arial">Щелкнуть правую кнопку мыши или переднюю часть сенсорной области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TOUCH_STRIP_FRONT" FONT="Arial">Щелкнуть переднюю часть сенсорной области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TOUCH_STRIP_BACK" FONT="Arial">Щелкнуть заднюю часть сенсорной области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_TOUCH_STRIP_ANYWHERE" FONT="Arial">Щелкнуть в любом месте сенсорной области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_TOUCH_STRIP_ANYWHERE" FONT="Arial">Дважды коснуться передней и задней части сенсорной области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_ENABLE_TAP_AND_DRAG" FONT="Arial">Дважды коснуться и перетащить</String>
+    
+
+    <String ALIAS="IDS_NINJA_GESTURE_ACTION_NAME_SWIPE_LEFT_EDGE_ONE_FINGER" FONT="Arial">Провести от левого края мыши 1 пальцем</String>
+    <String ALIAS="IDS_NINJA_GESTURE_ACTION_NAME_SWIPE_TOP_EDGE_ONE_FINGER" FONT="Arial">Провести от верхнего края мыши 1 пальцем</String>
+    <String ALIAS="IDS_NINJA_GESTURE_ACTION_NAME_SWIPE_RIGHT_EDGE_ONE_FINGER" FONT="Arial">Провести от правого края мыши 1 пальцем</String>
+    
+
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_RIGHT_LOWER_CORNER" FONT="Arial">Щелкнуть правый нижний угол 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LEFT_LOWER_CORNER" FONT="Arial">Щелкнуть левый нижний угол 1 пальцем</String>
+
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_ZONE_C_ONE_FINGER" FONT="Arial">Щелкнуть нижнюю часть сенсорной поверхности</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_ZONE_C_ONE_FINGER" FONT="Arial">Дважды коснуться 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_ZONE_C_TWO_FINGERS" FONT="Arial">Дважды коснуться 2 пальцами</String>
+
+    <String ALIAS="IDS_CHECK_REVERSE_SCROLL_DIRECTION_PLURAL" FONT="Arial">Содержимое перемещается в том же направлении, что и пальцы</String>
+    <String ALIAS="IDS_CHECK_REVERSE_SCROLL_DIRECTION_SINGULAR" FONT="Arial">Содержимое перемещается в том же направлении, что и палец</String>
+    <String ALIAS="IDS_STATIC_REVERSE_SCROLL_DIRECTION_SYNCHRONIZED" FONT="Arial">Направление синхронизированной прокрутки</String>
+
+    <!--Extra Strings-->
+    <String ALIAS="IDC_STATIC_SWAP_BUTTONS_GESTURE_ACTION_1" FONT="Arial">Щелкнуть правую кнопку мыши</String>
+    <String ALIAS="IDC_STATIC_SWAP_BUTTONS_GESTURE_ACTION_2" FONT="Arial">Щелкнуть правую кнопку мыши или переднюю часть сенсорной области</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_ONE_FINGER_1" FONT="Arial">Дважды коснуться 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_KEYPLATE_TWO_FINGERS_1" FONT="Arial">Дважды коснуться 2 пальцами</String>
+    <String ALIAS="IDC_GESTURE_ACTION_SWITCH_NEXT_APP" FONT="Arial">Переключиться на следующее приложение</String>
+    <String ALIAS="IDC_GESTURE_ACTION_SWITCH_PREV_APP" FONT="Arial">Переключиться на предыдущее приложение</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_LEFT_CORNER_ONE_FINGER_1" FONT="Arial">Щелкнуть левый нижний угол сенсорной панели 1 пальцем</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_CLICK_LOWER_RIGHT_CORNER_ONE_FINGER_1" FONT="Arial">Щелкнуть правый нижний угол сенсорной панели 1 пальцем</String>
+    <String ALIAS="IDS_SCROLLTAB_TITLE_NAVIGATE_1" FONT="Arial">Перемещение</String>
+    <String ALIAS="IDS_SCROLLTAB_TITLE_NAVIGATE_2" FONT="Arial">Прокрутка и изменение масштаба</String>
+    <String ALIAS="IDS_NAVIGATEWINDOWSTAB_TITLE_NAVIGATE_1" FONT="Arial">Управление Windows</String>
+    <String ALIAS="IDS_CHECK_MAXIMIZE_MINIMIZE_WINDOWS_1" FONT="Arial">Развертывание/свертывание окон</String>
+    <String ALIAS="IDS_ERROR_VIDEOS_UNAVAILABLE_1" FONT="Arial">Видео недоступно</String>
+    <String ALIAS="IDS_ERROR_VIDEOS_UNAVAILABLE_2" FONT="Arial">В этой версии программного обеспечения видео недоступно.</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_DOUBLE_TAP_TO_DRAG" FONT="Arial">Дважды коснуться для перетаскивания</String>
+    <String ALIAS="IDS_GESTURE_ACTION_NAME_DOUBLE_TAP_TO_DRAG" FONT="Arial">Дважды коснуться 1 пальцем и перетащить, не отрывая пальца</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_ALT_TAB" FONT="Arial">Alt + Tab</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_TASK_VIEW" FONT="Arial">Представление задач</String>
+    <String ALIAS="IDS_GESTURE_ACTIVITY_CONTROL_WIN_TAB" FONT="Arial">Ctrl + Win + Tab</String>
+
+    <!--Web Pairing Tool Link and Visit This Link-->
+    <String ALIAS="IDS_TOOLS_WEB_PAIRING_LINK" FONT="Arial">http://logiwebconnect.com/</String>
+    <String ALIAS="IDS_TOOLS_RECIEVER_SUPPORT" FONT="Arial">http://support.logi.com/hc/articles/4404726795543</String>
+
+  </StringSet>
+  
+	<Dialog ID="IDD_KEYBOARD_BUTTONSETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_KEYBOARD_BUTTON_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Настройки специальных клавиш</Control>
+    <Control ID="IDC_STATIC_SELECTBUTTON" FONT="Arial" SCALE="1.2" BOLD="1"/>
+    <Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Выберите задачу</Control>
+		<Control ID="IDC_STATIC_TASKSETTINGS" FONT="Arial" SCALE="1.2" BOLD="1"/>
+		<Control ID="IDC_KEYBOARD_BUTTONS_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+		<Control ID="IDC_SELECT_FUNCTION" FONT="Arial">Выберите функцию</Control>
+    <!--<Control ID="IDC_CHECK_F_FN_KEY_BEHAVIOUR" FONT="Arial">When this box is checked, press F1, F2... F12 keys to use the enhanced functions printed on the keys, and press and hold the Fn key to use the standard function keys.</Control>-->
+    <Control ID="IDC_CHECK_F_FN_KEY_BEHAVIOUR" FONT="Arial" SCALE="1.2" BOLD="1">Смена функций F-клавиш</Control>
+    <Control ID="IDC_KEYBOARD_STATIC_FUTURE_DEVICE" FONT="Arial">Если у вашего устройства имеются функции, которым требуется программное обеспечение, для использования этих функций вам нужно будет загрузить обновленную версию SetPoint. Основные функции вашего устройства будут работать и без установки нового программного обеспечения. Нажмите "Проверить наличие обновлений", чтобы выяснить, есть ли доступные обновления.</Control>
+    <Control ID="IDC_KEYBOARD_CHECKUPDATES_BUTTON" FONT="Arial">Проверить наличие обновлений</Control>
+		<Control ID="IDC_KEYBOARD_EOL_STATIC_LINK" FONT="Arial">Щелкните здесь для получения дополнительных сведений.</Control>
+		<Control ID="IDC_KEYBOARD_EOL_WARNING_STATIC_TEXT" FONT="Arial">Данная версия SetPoint не поддерживает некоторые функции этого устройства.</Control>
+
+  </Dialog>
+	<Dialog ID="IDD_MEDIAPAD_BUTTONSETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_MEDIAPAD_BUTTON_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Настройки кнопок</Control>
+		<Control ID="IDC_STATIC_SELECTBUTTON" FONT="Arial" SCALE="1.2" BOLD="1">Выберите кнопку</Control>
+		<Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Выберите задачу</Control>
+		<Control ID="IDC_STATIC_TASKSETTINGS" FONT="Arial" SCALE="1.2" BOLD="1"/>
+		<Control ID="IDC_MEDIAPAD_BUTTONS_RESTORDEFAULTS">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+		<Control ID="IDC_SELECT_FUNCTION">Выберите функцию</Control>
+    <Control ID="IDC_MEDIAPAD_STATIC_FUTURE_DEVICE" FONT="Arial">Если у вашего устройства имеются функции, которым требуется программное обеспечение, для использования этих функций вам нужно будет загрузить обновленную версию SetPoint. Основные функции вашего устройства будут работать и без установки нового программного обеспечения. Нажмите "Проверить наличие обновлений", чтобы выяснить, есть ли доступные обновления.</Control>
+    <Control ID="IDC_MEDIAPAD_CHECKUPDATES_BUTTON" FONT="Arial">Проверить наличие обновлений</Control>
+		<Control ID="IDC_MEDIAPAD_EOL_STATIC_LINK" FONT="Arial">Щелкните здесь для получения дополнительных сведений.</Control>
+		<Control ID="IDC_MEDIAPAD_EOL_WARNING_STATIC_TEXT" FONT="Arial">Данная версия SetPoint не поддерживает некоторые функции этого устройства.</Control>
+
+	</Dialog>
+	<Dialog ID="IDD_MOUSE_BUTTONSETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_MOUSE_BUTTON_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Настройки кнопок</Control>
+		<Control ID="IDC_STATIC_SELECTBUTTON" FONT="Arial" SCALE="1.2" BOLD="1">Выберите кнопку</Control>
+		<Control ID="IDC_CONTROL_SWAPHAND" FONT="Arial">Смена кнопок</Control>
+		<Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Выберите задачу</Control>
+		<Control ID="IDC_STATIC_TASKSETTINGS" FONT="Arial" SCALE="1.2" BOLD="1"/>
+		<Control ID="IDC_MOUSE_BUTTONS_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+		<Control ID="IDC_SELECT_FUNCTION" FONT="Arial">Выберите функцию</Control>
+		<Control ID="IDC_STATIC_MS_SWAPBUTTONS_STATUS" FONT="Arial">Смена функций правой и левой кнопок производится в панели управления Windows в папке "Мышь"</Control>
+    <Control ID="IDC_STATIC_FUTURE_DEVICE" FONT="Arial">Если у вашего устройства имеются функции, которым требуется программное обеспечение, для использования этих функций вам нужно будет загрузить обновленную версию SetPoint. Основные функции вашего устройства будут работать и без установки нового программного обеспечения. Нажмите "Проверить наличие обновлений", чтобы выяснить, есть ли доступные обновления.</Control>
+    <Control ID="IDC_CHECKUPDATES_BUTTON" FONT="Arial">Проверить наличие обновлений</Control>
+		<Control ID="IDC_MOUSE_EOL_STATIC_LINK" FONT="Arial">Щелкните здесь для получения дополнительных сведений.</Control>
+		<Control ID="IDC_MOUSE_EOL_WARNING_STATIC_TEXT" FONT="Arial">Данная версия SetPoint не поддерживает некоторые функции этого устройства.</Control>
+
+  </Dialog>
+	<Dialog ID="IDD_DEVICE_BATTERYSETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_DEVICE_BATTERIES" FONT="Arial" SCALE="1.4" BOLD="1"/>
+		<Control ID="IDC_STATIC_BATTERYLEVEL" FONT="Arial" SCALE="1.2" BOLD="1">Уровень заряда батарей</Control>
+		<Control ID="IDC_STATIC_LOWBATNOTIFICAITON" FONT="Arial" SCALE="1.2" BOLD="1">Уведомление о низком уровне заряда батареи</Control>
+		<Control ID="IDC_STATIC_LOWBATWARNING" FONT="Arial" SCALE="1.2" BOLD="1">Предупреждение о низком уровне заряда батарей</Control>
+		<Control ID="IDC_STATIC_BATTERYLEVEL_DISPLAY" FONT="Arial" SCALE="1.1" BOLD="1"/>
+		<Control ID="IDC_STATIC_MOUSE_BATTERYLEVEL_HELP" FONT="Arial">Если при замене батарей требуется помощь, нажмите кнопку "Справка".</Control>
+<Control ID="IDC_STATIC_CHARGINGTIP1" FONT="Arial" SCALE="1.2" BOLD="1">Хотите быстрее выполнять зарядку батареи?</Control>
+		<Control ID="IDC_STATIC_CHARGINGTIP2" FONT="Arial">Время зарядки можно сократить, отключив клавиатуру или заказав блок питания, который можно приобрести на веб-странице logitech.com/support</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+		<Control ID="IDC_STATIC_LOWBATSLIDER_HELP" FONT="Arial">Ползунком задайте уровень, при котором программа SetPoint и мышь должны предупреждать о том, что батарея разряжена.</Control>
+		<Control ID="IDC_BATTERYREMAIN_STATIC" FONT="Arial" SCALE="1.1" BOLD="1"/>
+		<Control ID="IDC_BATTERYREMAIN_PREFIX" FONT="Arial" SCALE="1.1" BOLD="1"/>
+    <Control ID="IDC_STATIC_LOWBATNOTIFICATION_HELP" FONT="Arial">SetPoint будет информировать с помощью экранных сообщений о том, что батареи устройства разряжены и нуждаются в замене или зарядке.</Control>
+  </Dialog>
+	<Dialog ID="IDD_DEVICE_CONN_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_DEVICE_CONN" FONT="Arial" SCALE="1.4" BOLD="1"/>
+		<Control ID="IDC_STATIC_DEVICE_CONN_DESC" FONT="Arial">Щелкните "Подключить"</Control>
+    <Control ID="IDC_STATIC_DEVICE_CONN_CHANNEL_NO" FONT="Arial" SCALE="1.1">Клавиатура подключена к каналу 1</Control>
+    <Control ID="IDC_STATIC_DEVICE_CONN_DESC_CORDLESS" FONT="Arial" SCALE="1.1">Щелкните "Подключить"</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+		<Control ID="IDC_STATIC_SECURESTATUS" FONT="Arial" SCALE="1.2" BOLD="1">Закрепление клавиатуры за компьютером</Control>
+		<Control ID="IDC_STATIC_SECURESTATUS_DISPLAY" FONT="Arial" SCALE="1.1" BOLD="1"/>
+	</Dialog>
+	<Dialog ID="IDD_KEYBOARD_INAVSETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_INAV_SETTING" FONT="Arial" SCALE="1.4" BOLD="1">Настройка iNav</Control>
+		<Control ID="IDC_STATIC_INAVWHEEL" FONT="Arial" SCALE="1.2" BOLD="1">iNav-колесико</Control>
+		<Control ID="IDC_STATIC_SCROLLINGSIZE">Шаг прокрутки</Control>
+		<Control ID="IDC_KEYBOARD_INAV_RESTORDEFAULTS">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+		<Control ID="IDC_STATIC_INAV_HORZ_SLOW">Медленно</Control>
+		<Control ID="IDC_STATIC_INAV_HORZ_FAST">Быстро</Control>
+		<Control ID="IDC_STATIC_INAV_CRUISE_SLOW">Медленно</Control>
+		<Control ID="IDC_STATIC_INAV_CRUISE_FAST">Быстро</Control>
+		<Control ID="IDC_STATIC_INAV_HORZ_SPEED" FONT="Arial" SCALE="1.2" BOLD="1">Скорость горизонтальной прокрутки</Control>
+		<Control ID="IDC_STATIC_INAV_CRUISE_CONTROL" FONT="Arial" SCALE="1.2" BOLD="1">Скорость прокрутки Cruise Control</Control>
+	</Dialog>
+	<Dialog ID="IDD_MOUSE_CURSORSETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_MOUSE_MOVEMENT" FONT="Arial" SCALE="1.4" BOLD="1">Настройки указателя и прокрутки</Control>
+		<Control ID="IDC_STATIC_SCROLLINGSIZE" FONT="Arial" SCALE="1.2" BOLD="1">Шаг прокрутки</Control>
+    <Control ID="IDC_STATIC_SURFACE_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">На рабочем столе</Control>
+    <Control ID="IDC_STATIC_SURFACE_SETTINGS2" FONT="Arial" SCALE="1.2" BOLD="1">Настройки указателя</Control>
+		<Control ID="IDC_STATIC_AIR_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">В воздухе</Control>
+		<Control ID="IDC_CHECK_CURSORTRAIL" FONT="Arial">Включить след указателя</Control>
+		<Control ID="IDC_CHECK_SMARTMOVE" FONT="Arial">Включить функцию Smart Move</Control>
+		<Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+		<Control ID="IDC_STATIC_SURFACE_CURSORSPEED" FONT="Arial">Скорость перемещения указателя</Control>
+		<Control ID="IDC_STATIC__SURFACE_CURSORACCELERATION" FONT="Arial">Ускорение указателя</Control>
+		<Control ID="IDC_STATIC_AIR_CURSORSPEED" FONT="Arial">Скорость перемещения указателя</Control>
+		<Control ID="IDC_STATIC_AIR_CURSORACCELERATION" FONT="Arial">Ускорение указателя</Control>
+		<Control ID="IDC_STATIC_CURSOR_SPEEDSLOW" FONT="Arial">Медленно</Control>
+		<Control ID="IDC_STATIC_CURSOR_SPEEDFAST" FONT="Arial">Быстро</Control>
+		<Control ID="IDC_STATIC_CURSOR_TRAILSLOW" FONT="Arial">Короткий</Control>
+		<Control ID="IDC_STATIC_CURSOR_TRAILFAST" FONT="Arial">Длинный</Control>
+		<Control ID="IDC_STATIC_AIR_CURSOR_SPEEDSLOW" FONT="Arial">Медленно</Control>
+		<Control ID="IDC_STATIC_AIR_CURSOR_SPEEDFAST" FONT="Arial">Быстро</Control>
+		<Control ID="IDC_RADIO_CURSOR_ACCEL_NO" FONT="Arial">Отсутствует</Control>
+		<Control ID="IDC_RADIO_CURSOR_ACCEL_MEDIUM" FONT="Arial">Среднее</Control>
+		<Control ID="IDC_RADIO_CURSOR_ACCEL_LOW" FONT="Arial">Низкое</Control>
+		<Control ID="IDC_RADIO_CURSOR_ACCEL_HIGH" FONT="Arial">Высокое</Control>
+		<Control ID="IDC_RADIO_AIR_CURSOR_ACCEL_NO" FONT="Arial">Отсутствует</Control>
+		<Control ID="IDC_RADIO_AIR_CURSOR_ACCEL_MEDIUM" FONT="Arial">Среднее</Control>
+		<Control ID="IDC_RADIO_AIR_CURSOR_ACCEL_LOW" FONT="Arial">Низкое</Control>
+		<Control ID="IDC_RADIO_AIR_CURSOR_ACCEL_HIGH" FONT="Arial">Высокое</Control>
+		<Control ID="IDC_CHECK_DISTINCT_AIRCURSOR" FONT="Arial">Специальный воздушный указатель</Control>
+    <Control ID="IDC_CHECK_ENABLE_SMOOTH_SCROLL" FONT="Arial">Включить плавную прокрутку</Control>
+  </Dialog>
+	<Dialog ID="IDD_MOUSE_GAME_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_MOUSE_GAME" FONT="Arial" SCALE="1.4" BOLD="1">Настройки для игры</Control>
+		<Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+		<Control ID="IDC_STATIC_MOUSE_GAME_DETECTION" FONT="Arial" SCALE="1.2" BOLD="1">Функция распознавания игры</Control>
+		<Control ID="IDC_CHECK_GAME_DETECTION" FONT="Arial">Включено</Control>
+		<Control ID="IDC_STATIC_MOUSE_GAME_MODE_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">Настройки режима игры</Control>
+		<Control ID="IDC_CHECK_KEEP_ACCELERATION" FONT="Arial">Сохранить ускорение мыши</Control>
+		<Control ID="IDC_CHECK_KEEP_SPEED" FONT="Arial">Сохранить скорость мыши</Control>
+		<Control ID="IDC_CHECK_KEEP_RIGHT_LEFT" FONT="Arial">Сохранить инверсию кнопок для левой руки</Control>
+		<Control ID="IDC_CHECK_KEEP_KEYPRESS" FONT="Arial">Сохранить функции сочетаний клавиш</Control>
+		<Control ID="IDC_CHECK_KEEP_OTHER" FONT="Arial">Сохранить другие назначенные функции кнопок (двойной щелчок, AutoScroll...)</Control>
+		<Control ID="IDC_STATIC_GAME_MOUSE_SPEED" FONT="Arial" SCALE="1.2" BOLD="1">Скорость и ускорение</Control>
+		<Control ID="IDC_RADIO_SPEED_SETPOINT" FONT="Arial">Использование программы SetPoint</Control>
+		<Control ID="IDC_RADIO_SPEED_OS" FONT="Arial">Использование программы OS</Control>
+    <Control ID="IDC_CHECK_CURSOR_COHABITAT" FONT="Arial">Сохранить настройки ОС</Control>
+    <Control ID="IDC_CHECK_PARTICIPATE" FONT="Arial">Применение настроек игры после ее распознавания</Control>
+		<Control ID="IDC_BUTTON_MANAGE_GAME_LIST" FONT="Arial">Еще настройки для игры</Control>
+	</Dialog>
+	<Dialog ID="IDD_NUMPAD_PREFENCESETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_KEYBOARD_PREF_TITLE" FONT="Arial" SCALE="1.4" BOLD="1">Настройки ЖК-экрана клавиатуры</Control>
+		<Control ID="IDC_STATIC_KEYBOARD_PREF" FONT="Arial" SCALE="1.2" BOLD="1">Параметры клавиатуры</Control>
+		<Control ID="IDC_CHECK_BEEP_CAPSLOCK_FMODE" FONT="Arial">Звуковой сигнал при нажатии Caps Lock и Mode F</Control>
+		<Control ID="IDC_CHECK_ENABLE_TOUCH_MEDIA" FONT="Arial">Включить сенсорное управление мультимедиа</Control>
+		<Control ID="IDC_STATIC_ALERT_PREFS" FONT="Arial" SCALE="1.2" BOLD="1">Параметры сигналов</Control>
+		<Control ID="IDC_STATIC_ALERT_PREFS_DESC" FONT="Arial">При получении нового письма по электронной почте:</Control>
+		<Control ID="IDC_CHECK_BLINK_NUMPAD_LIGHT" FONT="Arial">Мигание светового индикатора MediaPad</Control>
+		<Control ID="IDC_CHECK_PLAY_ALERTSOUND" FONT="Arial">Воспроизведение звука</Control>
+		<Control ID="IDC_BUTTON_TEST_ALERTSOUND" FONT="Arial">Проверка звука</Control>
+		<Control ID="IDC_STATIC_GREETING_PREFERNCE" FONT="Arial" SCALE="1.2" BOLD="1">Параметры ЖК-экрана — имя</Control>
+		<Control ID="IDC_CHECK_GREETING_PREFERENCE" FONT="Arial">Изменить имя на ЖК-экране</Control>
+		<Control ID="IDC_STATIC_DISPLAYNAME" FONT="Arial">Отображать имя:</Control>
+		<Control ID="IDC_STATIC_CLIPBOARD_PREFERENCE" FONT="Arial" SCALE="1.2" BOLD="1">Параметры калькулятора</Control>
+		<Control ID="IDC_CHECK_CLIPBOARD_PREFERENCE" FONT="Arial">При нажатии клавиши Enter помещать результат в буфер обмена Windows</Control>
+		<Control ID="IDC_NUMPAD_PREFERENCES_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+		<Control ID="IDC_STATIC_SET_LCD_PREFERENCES" FONT="Arial" SCALE="1.2" BOLD="1">Приоритеты ЖК-экрана</Control>
+		<Control ID="IDC_RADIO_NEVER_INTERRUPT_MEDIA" FONT="Arial">Не прерывать воспроизведение сообщениями</Control>
+		<Control ID="IDC_RADIO_ALWAYS_INTERRUPT_MEDIA" FONT="Arial">Прерывать воспроизведение сообщениями</Control>
+		<Control ID="IDC_STATIC_LAUNCH_CP_CALCFORMAT" FONT="Arial">Открыть панель управления для изменения формата калькулятора</Control>
+		<Control ID="IDC_BUTTON_LAUNCH_CP_CALCFORMAT" FONT="Arial">Изменить</Control>
+		<Control ID="IDC_STATIC_TEMP_PREF" FONT="Arial" SCALE="1.2" BOLD="1">Формат температуры</Control>
+		<Control ID="IDC_RADIO_CELCIUS" FONT="Arial">Цельсий</Control>
+		<Control ID="IDC_RADIO_FAHRENHEIT" FONT="Arial">Фаренгейт</Control>
+	</Dialog>
+	<Dialog ID="IDD_TOOLS_INDICATOR" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_SETPOINTOPTIONS" FONT="Arial" SCALE="1.4" BOLD="1">Параметры SetPoint</Control>
+		<Control ID="IDC_STATIC_KEYBOARD_INDICATORS" FONT="Arial" SCALE="1.2" BOLD="1">Индикаторы состояния</Control>
+		<Control ID="IDC_CHECK_KEYBOARD_SETTINGS" FONT="Arial">Отображать состояние настройки (например, состояние индикатора Caps Lock) на экране</Control>
+		<Control ID="IDC_CHECK_KEYBOARD_BEEP_SETTINGS" FONT="Arial">Сигнализировать о состоянии настройки (например, Caps Lock) звуковым сигналом</Control>
+		<Control ID="IDC_CHECK_KEYBOARD_TRAY_SETTINGS" FONT="Arial">Отображать установки клавиатуры (например, состояние индикатора Caps Lock) в области уведомлений</Control>
+		<Control ID="IDC_CHECK_KEYBOARD_POPUP_SETTINGS" FONT="Arial">Отображать установки клавиатуры (например, состояние индикатора Caps Lock) над областью уведомлений</Control>
+		<Control ID="IDC_STATIC_SOFTWARE_ACCESS" FONT="Arial" SCALE="1.2" BOLD="1">Доступ к программному обеспечению</Control>
+		<Control ID="IDC_CHECK_SHOW_SYSTRAY_ICON" FONT="Arial">Отображать значок SetPoint в области уведомлений</Control>
+		<Control ID="IDC_TOOLS_INDICATOR_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+		<Control ID="IDC_STATIC_ANALYTICS" FONT="Arial" SCALE="1.2" BOLD="1">Аналитика и рекламные материалы</Control>
+		<Control ID="IDC_STATIC_ANALYTICS2" FONT="Arial">Узнайте больше о</Control>
+		<Control ID="IDC_CHECK_ENABLE_ANALYTICS" FONT="Arial">Помогите компании Logitech улучшить ее продукцию и услуги, отправив данные диагностики, а также сведения об использовании, и получите от нее свежие новости и рекламные материалы.</Control>
+		<Control ID="IDC_ANALYTICS_PRIVACY_POLICY" FONT="Arial">политике конфиденциальности компании Logitech</Control>
+		<Control ID="IDC_EULA" FONT="Arial">Лицензионное соглашение с конечным пользователем</Control>
+		<Control ID="IDC_STATIC_WEB_UPDATE" FONT="Arial" SCALE="1.2" BOLD="1">Веб-обновления</Control>
+		<Control ID="IDC_WEB_UPDATE_CHECK" FONT="Arial">При обнаружении неизвестной мыши или клавиатуры Logitech посетите веб-узел компании Logitech для проверки наличия обновлений программного обеспечения.</Control>
+		<Control ID="IDC_UPDATE_CHECKNOW" FONT="Arial">Идет проверка...</Control>
+		<Control ID="IDC_UPDATE_CONFIGURE" FONT="Arial">Настройка...</Control>
+    <Control ID="IDC_STATIC_OSD_POSITION" FONT="Arial">В каком месте экрана должно появляться сообщение?</Control>
+    <Control ID="IDC_CHECK_OSD_NOTIFICATION_SETTINGS" FONT="Arial">Сообщать мне о следующих событиях.</Control>
+    <Control ID="IDC_CHECK_OSD_BATTERY_SETTINGS" FONT="Arial">Слишком низкий заряд батареек одного из моих устройств</Control>
+    <Control ID="IDC_CHECK_OSD_VOLUME_SETTINGS" FONT="Arial">Изменяются настройки громкости компьютера</Control>
+    <Control ID="IDC_CHECK_OSD_KEY_SETTINGS" FONT="Arial">Нажимается клавиша фиксации (например, Caps lock)</Control>
+    <Control ID="IDC_CHECK_OSD_DEVIC_CONNECTION_SETTINGS" FONT="Arial">Устройство подключено или отключено</Control>
+    <Control ID="IDC_CHECK_OSD_FUNCTION_KEY_SETTINGS" FONT="Arial">Запускается функция клавиатуры</Control>
+	</Dialog>
+	<Dialog ID="IDD_TOOLS_INFORMATION" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_INFORMATION_RESOURCES" FONT="Arial" SCALE="1.4" BOLD="1">Информационные ресурсы</Control>
+		<Control ID="IDC_STATIC_KODIAKTOUR" FONT="Arial" SCALE="1.2" BOLD="1">QuickTour</Control>
+		<Control ID="IDC_STATIC_KODIAKTOUR_DESC" FONT="Arial">Нажмите кнопку QuickTour, чтобы узнать, каким образом это программное обеспечение помогает максимально эффективно использовать данное устройство.</Control>
+		<Control ID="IDC_BUTTON_VIEWTOUR" FONT="Arial">QuickTour</Control>
+    <Control ID="IDC_STATIC_PS2INSTALL" FONT="Arial" SCALE="1.2" BOLD="1">Установка PS/2</Control>
+    <Control ID="IDC_STATIC_PS2INSTALL_DESC" FONT="Arial">Щелкните здесь, чтобы разрешить использование PS/2.</Control>
+    <Control ID="IDC_BUTTON_PS2INSTALL" FONT="Arial">Установить драйвер PS/2</Control>
+		<Control ID="IDC_STATIC_ABOUTKODIAK" FONT="Arial" SCALE="1.2" BOLD="1">О программе SetPoint™</Control>
+		<Control ID="IDC_STATIC_ABOUTKODIAK_DESC" BOLD="1" FONT="Arial">Центр управления SetPoint</Control>
+		<Control ID="IDC_STATIC_CONTROLCENTER_VERSION_DESC" FONT="Arial">Версия центра управления:</Control>
+		<Control ID="IDC_STATIC_CONTROLCENTER_VERSION"/>
+		<Control ID="IDC_STATIC_MOUSEDRIVER_VERSION_DESC" FONT="Arial">Версия драйвера:</Control>
+		<Control ID="IDC_STATIC_MOUSEDRIVER_VERSION"/>
+		<Control ID="IDC_STATIC_COPYRIGHT" SCALE="0.9">© Logitech 1987-2023 г. Все права защищены.\nLogitech, эмблема Logitech и другие знаки Logitech являются собственностью компании Logitech и могут быть зарегистрированы. Все прочие товарные знаки являются собственностью соответствующих владельцев.</Control>
+		<Control ID="IDC_STATIC_KODIAKHELPCENTER" FONT="Arial" SCALE="1.2" BOLD="1">Справочный центр SetPoint</Control>
+		<Control ID="IDC_STATIC_KODIAK_HELPCENTER_DESC" FONT="Arial">Справочный центр поможет ответить на многие вопросы и найти подробные объяснения.</Control>
+    <Control ID="IDC_STATIC_USER_EXPERIENCE" FONT="Arial" SCALE="1.2" BOLD="1">Программа Logitech "Работа пользователя"</Control>
+    <Control ID="IDC_STATIC_KODIAKERGO" FONT="Arial" SCALE="1.2" BOLD="1">Поддержка</Control>
+		<Control ID="IDC_STATIC_KODIAKERGO_DESC" FONT="Arial">На нашем веб-сайте можно получить сведения об использовании вашего устройства и обновить драйверы.</Control>
+		<Control ID="IDC_BUTTON_VIEWHELP" FONT="Arial">Справочный центр</Control>
+		<Control ID="IDC_STATIC_KODIAKERGO_DESC2" FONT="Arial">Для получения дополнительных сведений по использованию устройства и эргономике посетите наш веб-узел.</Control>
+		<Control ID="IDC_BUTTON_LOGITECHSUPPORT" FONT="Arial">Поддержка Logitech</Control>
+		<Control ID="IDC_BUTTON_VIEW_ERGO_HELP" FONT="Arial">Поддержка</Control>
+		<Control ID="IDC_BUTTON_VIEW_ERGO_WEB" FONT="Arial">Веб-узел</Control>
+    <Control ID="IDC_STATIC_USER_EXPERIENCE_DESC" FONT="Arial">Присоединяйтесь к программе Logitech «Работа пользователя», и ваше мнение поможет нам создать следующее поколение продуктов более совершенным</Control>
+    <Control ID="IDC_BUTTON_USER_EXPERIENCE" FONT="Arial">Дополнительные сведения</Control>
+    <Control ID="IDC_ONLINE_LINK_EULA_PDF" FONT="Arial">Лицензионное соглашение с конечным пользователем</Control>
+    <Control ID="IDC_STATIC_ONLINE_LINK_EULA_PDF2" FONT="Arial">Продолжив установку, вы соглашаетесь с условиями </Control>
+    <Control ID="IDC_STATIC_SAVE_SYSTEM_REPORT" FONT="Arial" SCALE="1.2" BOLD="1">Сохранить системный отчет</Control>
+    <Control ID="IDC_STATIC_SAVE_SYSTEM_REPORT_DESC" FONT="Arial">
+Щелкните здесь, чтобы сохранить системные отчеты.</Control>
+    <Control ID="IDC_BUTTON_SAVE_SYSTEM_REPORT" FONT="Arial">Сохранить системные отчеты</Control>
+  </Dialog>
+  <Dialog ID="IDD_TOOLS_BT_INFORMATION" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_BLUETOOTH_RESOURCE" FONT="Arial" SCALE="1.4" BOLD="1">Ресурсы по использованию Bluetooth®</Control>
+    <Control ID="IDC_STATIC_CONNECT_HELP" FONT="Arial" SCALE="1.2" BOLD="1">Помощь по использованию Bluetooth®</Control>
+    <Control ID="IDC_STATIC_BLUETOOTH_TROUBLESHOOT_DESC" FONT="Arial">Если требуется подключить другие устройства Bluetooth® или у вас возникли затруднения при подключении устройств Bluetooth®, выберите «Мастер связи Bluetooth®»</Control>
+		<Control ID="IDC_BUTTON_CONNECTHELP" FONT="Arial">Мастер связи Bluetooth®</Control>
+	</Dialog>
+	<Dialog ID="IDD_SELECT_OTHER_FUNCTION" WIDTH="348" HEIGHT="138">Выберите другую задачу
+ 		<Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Выберите задачу</Control>
+		<Control ID="IDOK">ОК</Control>
+		<Control ID="IDCANCEL">Отмена</Control>
+	</Dialog>
+	<Dialog ID="IDD_GAMELIST">Список распознанных игр
+ 		<Control ID="IDC_STATIC_GAME_LIST" FONT="Arial" SCALE="1.2" BOLD="1">Из списка видно, какие приложения рассматривались как "игры"</Control>
+		<Control ID="IDC_STATIC_ADD_GAME" FONT="Arial" SCALE="1.0" BOLD="1">Чтобы добавить игру, нажмите и удерживайте колесико во время игры</Control>
+		<Control ID="IDC_RENAME_GAME">Переименовать</Control>
+		<Control ID="IDC_REMOVE_GAME">Удалить</Control>
+		<Control ID="IDOK">Закрыть</Control>
+	</Dialog>
+	<Dialog ID="IDD_MOUSE_GAME_ADVANCED_SETTINGS" WIDTH="747" HEIGHT="500">
+		<Control ID="IDC_STATIC_AGAMES_RESOLUTION" FONT="Arial" SCALE="1.2" BOLD="1">Настройка чувствительности мыши</Control>
+		<Control ID="IDC_STATIC_AGAMES_LIST" FONT="Arial" SCALE="1.2" BOLD="1">Распознанные игры</Control>
+		<Control ID="IDC_AGAME_BROWSE" FONT="Arial" SCALE="1.2" BOLD="1">Обзор</Control>
+		<Control ID="IDC_AGAME_REMOVE" FONT="Arial" SCALE="1.2" BOLD="1">Удалить</Control>
+		<Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial" SCALE="1.2" BOLD="1">Восст. параметры</Control>
+		<Control ID="IDOK" FONT="Arial" SCALE="1.2" BOLD="1">ОК</Control>
+		<Control ID="IDCANCEL" FONT="Arial" SCALE="1.2" BOLD="1">Отмена</Control>
+		<Control ID="IDC_STATIC_AGAMES_TITLE" FONT="Arial" SCALE="2.4" BOLD="1">Дополнительные настройки для игры</Control>
+		<Control ID="IDC_STATIC_AGAMES_NOTIFICATION" FONT="Arial" SCALE="1.2" BOLD="1">Разрешить уведомление</Control>
+	</Dialog>
+	<Dialog ID="IDD_MOUSE_GAME_ADVANCED_XY_SETTINGS" WIDTH="747" HEIGHT="500">
+		<Control ID="IDC_STATIC_AGAMES_RESOLUTION" FONT="Arial" SCALE="1.2" BOLD="1">Настройка чувствительности мыши</Control>
+		<Control ID="IDC_STATIC_AGAMES_LIST" FONT="Arial" SCALE="1.2" BOLD="1">Распознанные игры</Control>
+		<Control ID="IDC_AGAME_BROWSE" FONT="Arial" SCALE="1.2" BOLD="1">Обзор</Control>
+		<Control ID="IDC_AGAME_REMOVE" FONT="Arial" SCALE="1.2" BOLD="1">Удалить</Control>
+		<Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial" SCALE="1.2" BOLD="1">Восст. параметры</Control>
+		<Control ID="IDOK" FONT="Arial" SCALE="1.2" BOLD="1">ОК</Control>
+		<Control ID="IDCANCEL" FONT="Arial" SCALE="1.2" BOLD="1">Отмена</Control>
+		<Control ID="IDC_STATIC_AGAMES_TITLE" FONT="Arial" SCALE="2.4" BOLD="1">Дополнительные настройки для игры программы SetPoint</Control>
+		<Control ID="IDC_STATIC_AGAMES_NOTIFICATION" FONT="Arial" SCALE="1.2" BOLD="1">Разрешить уведомление</Control>
+		<Control ID="IDC_STATIC_AGAMES_LINK" FONT="Arial" SCALE="1.2" BOLD="1">Привязка разрешения экрана по X и Y</Control>
+		<Control ID="IDC_STATIC_AGAMES_RRATE_TITLE" FONT="Arial" SCALE="1.2" BOLD="1">Частота передачи (откликов в сек.)</Control>
+		<Control ID="IDC_STATIC_AGAMES_RRATE_WARNING" FONT="Arial" SCALE="1.0" BOLD="1">При возрастании частоты передачи использование ресурсов также возрастает</Control>
+	</Dialog>
+	<Dialog ID="IDD_MANAGE_PROGRAMS">Управление программами
+ 		<Control ID="IDC_STATIC_PROGRAMS">Программы</Control>
+		<Control ID="IDC_BUTTON_ADD">Добавить ...</Control>
+		<Control ID="IDC_BUTTON_REMOVE">Удалить</Control>
+		<Control ID="IDOK">ОК</Control>
+		<Control ID="IDCANCEL">Отмена</Control>
+	</Dialog>
+	<Dialog ID="IDD_DEVICE_NOTIFICATIONS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_DEVICENOTIFICATIONS_TITLE" FONT="Arial" SCALE="1.4" BOLD="1">Настройка уведомления клавиатуры</Control>
+    <Control ID="IDC_STATIC_NOTIFICATION_PREFERENCES" FONT="Arial" SCALE="1.2" BOLD="1">Параметры уведомления</Control>
+		<Control ID="IDC_STATIC_NOTN_BUDDY_LIST" FONT="Arial" SCALE="1.2" BOLD="1">Список собеседников для уведомления</Control>
+		<Control ID="IDC_STATIC_NOTIFICATION_DURATION" FONT="Arial" SCALE="1.2" BOLD="1">Продолжительность уведомления</Control>
+		<Control ID="IDC_DEVICE_NOTIFICATIONS_RESTORDEFAULTS">Восст. параметры</Control>
+		<Control ID="IDC_CHECK_EMAIL_PREFERENCES">Разрешить уведомления о сообщениях электронной почты</Control>
+		<Control ID="IDC_CHECK_MESSENGER_PREFERENCES">Разрешить уведомления службы мгновенных сообщений</Control>
+		<Control ID="IDC_CHECK_USE_BUDDY_LIST">Использ. список собеседн. для фильтрации уведомл.</Control>
+		<Control ID="IDC_STATIC_SETUP_BUDDY_LIST_DESC">Использовать кнопки для управления списком собеседников. Для удаления или изменения имени собеседника выделите это имя в списке и нажмите кнопку.</Control>
+		<Control ID="IDC_BUDDY_ADD">Добавить</Control>
+		<Control ID="IDC_BUDDY_REMOVE">Удалить</Control>
+		<Control ID="IDC_BUDDY_MODIFY">Изменить</Control>
+		<Control ID="IDC_STATIC_NOTIFICATION_DURATION_DESC">Уведомить о получении нового сообщения от любого собеседника из списка:</Control>
+		<Control ID="IDC_STATIC_DEFAULT_APPLICATIONS" FONT="Arial" SCALE="1.2" BOLD="1">Приложения по умолчанию</Control>
+		<Control ID="IDC_STATIC_EMAIL">Электронная почта:</Control>
+		<Control ID="IDC_STATIC_IM">Мгновенные сообщения:</Control>
+	</Dialog>
+	<Dialog ID="IDD_KEYBOARD_MUSICLIST_MGMT" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_MUSICLIST_MGMT" FONT="Arial" SCALE="1.4" BOLD="1">управление списком музыки</Control>
+		<Control ID="IDC_STATIC_MUSICLIST_MGMT_DESC">Этот экран позволяет управлять радиостанциями и списками воспроизведения, отображаемыми на ЖК-экране клавиатуры.\nСначала надо выбрать из предлагаемых вариантов список воспроизведения или радиостанцию.</Control>
+		<Control ID="IDC_RADIO_PLAYLIST" FONT="Arial" SCALE="1.2" BOLD="1">Список воспроизведения</Control>
+		<Control ID="IDC_RADIO_RADIO_STATION" FONT="Arial" SCALE="1.2" BOLD="1">Радио</Control>
+		<Control ID="IDC_STATIC_SELECT_MEDIAPLAYER">Выберите проигрыватель</Control>
+		<Control ID="IDC_STATIC_MUSICLIST_DESC">Только первые 9 элементов в выбранном проигрывателе отображаются на ЖК-экране клавиатуры. Выделите элемент, чтобы удалить его или изменить его положение в списке. Чтобы добавить элемент, нажмите кнопку "Добавить" или включите воспроизведение элемента в выбранном проигрывателе и выберите параметр "Сохранить" на ЖК-экране клавиатуры.</Control>
+		<Control ID="IDC_BUTTON_LAUNCH_ADD">Добавить...</Control>
+		<Control ID="IDC_BUTTON_REMOVE">Удалить</Control>
+		<Control ID="IDC_BUTTON_MOVE_UP">Вверх</Control>
+		<Control ID="IDC_BUTTON_MOVE_DOWN">Вниз</Control>
+		<Control ID="IDC_KEYBOARD_MUSICLIST_RESTORDEFAULTS">Восст. параметры</Control>
+	</Dialog>
+	<Dialog ID="IDD_ADD_MUSICLIST" WIDTH="348" HEIGHT="433">Добавить список музыки
+ 		<Control ID="IDC_STATIC_SELECT_MUSICLIST">Выберите элемент и нажмите кнопку "Добавить".</Control>
+		<Control ID="IDC_BUTTON_ADD">Добавить</Control>
+		<Control ID="IDCANCEL">Отмена</Control>
+	</Dialog>
+	<Dialog ID="IDD_MANAGE_BUDDYLIST" WIDTH="348" HEIGHT="138">Manage Buddy (Управление списком собеседников)
+ 		<Control ID="IDC_STATIC_SELECTBUDDY">Введите имя собеседника или адрес электронной почты</Control>
+		<Control ID="IDCANCEL">Отмена</Control>
+	</Dialog>
+	<Dialog ID="IDD_SMARTWHEEL_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_SMART_WHEEL_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Настройки SmartShift</Control>
+		<Control ID="IDC_STATIC_SELECTPROGRAM" FONT="Arial" SCALE="1.2" BOLD="1">Выберите программу</Control>
+		<Control ID="IDC_STATIC_VERTICAL_SCROLLING" FONT="Arial" SCALE="1.2" BOLD="1">Вертикальная прокрутка</Control>
+		<Control ID="IDC_STATIC_HORIZONTAL_SCROLLING" FONT="Arial" SCALE="1.2" BOLD="1">Горизонтальная прокрутка</Control>
+		<Control ID="IDC_STATIC_SMARTSHIFT_TECHNOLOGY" FONT="Arial" SCALE="1.2" BOLD="1">Технология SmartShift</Control>
+    <Control ID="IDC_CHECK_APPSETTINGS_WHEEL" FONT="Arial">Разрешить уникальные настройки колесика для конкретных приложений</Control>
+    <Control ID="IDC_MANAGEPROGRAMS" FONT="Arial">Управление программами</Control>
+		<Control ID="IDC_SMARTWHEEL_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+		<Control ID="IDC_BUTTON_CONFIGURE_APP_OVERRIDES_WHEEL" FONT="Arial">Настройка</Control>
+	</Dialog>
+	<Dialog ID="IDD_ADVANCEDZOOM_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_ADVANCEDZOOM_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Настройки масштабирования</Control>
+		<Control ID="IDC_STATIC_SELECTPROGRAM" FONT="Arial" SCALE="1.2" BOLD="1">Выберите программу</Control>
+		<Control ID="IDC_STATIC_ADVANCEDZOOM" FONT="Arial" SCALE="1.2" BOLD="1"/>
+		<Control ID="IDC_MANAGEPROGRAMS">Управление программами</Control>
+		<Control ID="IDC_ADVANCEDZOOM_RESTORDEFAULTS">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+	</Dialog>
+	<Dialog ID="IDD_TOOLS_VOIP_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_COMMUNICATION_MANAGER_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Настройки диспетчера связи Logitech</Control>
+		<Control ID="IDC_GROUP_ICA" FONT="Arial" SCALE="1.2" BOLD="1">Приложение "Общение через Интернет"</Control>
+		<Control ID="IDC_STATIC_ADVANCED_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">Дополнительные настройки</Control>
+		<Control ID="IDC_GROUP_AUDIO_SETTINGS" FONT="Arial" SCALE="1.2" BOLD="1">Настройки аудиоканала</Control>
+		<Control ID="IDC_STATIC_ICA_DESC">Диспетчер связи Logitech позволяет расширить возможности следующих приложений:</Control>
+		<Control ID="IDC_STATIC_AUDIO_SETTINGS__DESC">Чтобы изменить настройки связи через Интернет, запустите мастер нажатием кнопки:</Control>
+		<Control ID="IDC_CHECK_SILENCE_MUSIC">Отключение музыки при ответе на вызов</Control>
+		<Control ID="IDC_CHECK_ENABLE_LOGITECH_COMM_MGR">Включение диспетчера связи Logitech</Control>
+		<Control ID="IDC_TOOLS_COMM_MGR_RESTORDEFAULTS">Восст. параметры</Control>
+		<Control ID="IDC_BUTTON_START_WIZARD">Запуск мастера</Control>
+		<Control ID="IDC_STATIC_LAUNCH_AUDIO_CP">Чтобы изменить все аудионастройки на вашем компьютере (только для опытных пользователей),</Control>
+		<Control ID="IDC_STATIC_HL_LAUNCH_AUDIO_CP">Щелкните здесь</Control>
+	</Dialog>
+	<Dialog ID="IDD_KEYBOARD_TOUCHPAD_MOVEMENT" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_TOUCHPAD_MOVEMENT" FONT="Arial" SCALE="1.4" BOLD="1">TouchDisc: параметры прокрутки</Control>
+		<Control ID="IDC_STATIC__TOUCHPAD_MOVEMENT_DESC">Знаете ли вы, что панель TouchDisc действует как мышь? Чтобы изменить настройки панели TouchDisc, нажмите кнопку:</Control>
+		<Control ID="IDC_KEYBOARD_TOUCHPAD_CONFIG">Настройка TouchDisc</Control>
+		<Control ID="IDC_KEYBOARD_TOUCHPAD_RESTORDEFAULTS">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+	</Dialog>
+  <Dialog ID="IDD_TOUCHPAD_SETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_TOUCHPAD_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Настройки сенсорной панели</Control>
+    <Control ID="IDC_STATIC_ONEFINGER" FONT="Arial" SCALE="1.2" BOLD="1">Одним пальцем</Control>
+    <Control ID="IDC_CHECK_XY_TRACK">Перемещение указателя</Control>
+    <Control ID="IDC_CHECK_TAP_TO_CLICK">Касание для щелчка</Control>
+    <Control ID="IDC_STATIC_TWOFINGER" FONT="Arial" SCALE="1.2" BOLD="1">Двумя пальцами</Control>
+    <Control ID="IDC_CHECK_2FINGER_VERTICAL">Провести вверх и вниз для вертикальной прокрутки</Control>
+    <Control ID="IDC_CHECK_2FINGER_HORIZONTAL">Провести влево и вправо для горизонтальной прокрутки</Control>
+    <Control ID="IDC_CHECK_INERTIA_SCROLL">Прокрутка по инерции</Control>
+    <Control ID="IDC_STATIC_THREEFINGER" FONT="Arial" SCALE="1.2" BOLD="1">Тремя пальцами</Control>
+    <Control ID="IDC_CHECK_3FINGER_PAGEUPDOWN">Перемещение по странице вверх/вниз движением пальцев вверх/вниз</Control>
+    <Control ID="IDC_CHECK_3FINGER_BACKFORWARD">Переход к предыдущей/следующей странице в браузере движением пальцев влево/вправо</Control>
+    <Control ID="IDC_STATIC_FOURFINGER" FONT="Arial" SCALE="1.2" BOLD="1">Четырьмя пальцами</Control>
+    <Control ID="IDC_CHECK_4FINGER_APP_SWITCH">Смена приложений и отображение рабочего стола движением пальцев вверх/вниз</Control>
+    <Control ID="IDC_CHECK_4FINGER_EDGE_SNAP">Привязывание окна движением пальцев влево/вправо</Control>
+    <Control ID="IDC_STATIC_EDGE_GESTURES" FONT="Arial" SCALE="1.2" BOLD="1">Жесты от краев</Control>
+    <Control ID="IDC_CHECK_ENABLE_LEFTEDGE_GESTURE">Провести от левого края, чтобы переключить приложения</Control>
+    <Control ID="IDC_CHECK_ENABLE_RIGHTEDGE_GESTURE">Провести от левого края для отображения чудо-кнопок</Control>
+    <Control ID="IDC_CHECK_ENABLE_TOPEDGE_GESTURE">Провести от верхнего края для показа панели приложений</Control>
+    <Control ID="IDC_CHECK_ENABLE_ZOOM_GESTURE">Развести или свести 2 пальца для изменения масштаба</Control>
+    <Control ID="IDC_CHECK_2FINGER_TAP">Коснуться двумя пальцами для щелчка правой кнопкой</Control>
+    <Control ID="IDC_TOUCHPAD_RESTORDEFAULTS">Восст. параметры</Control>
+  </Dialog>
+	<Dialog ID="IDD_MOUSE_TOUCHPAD_SCROLL_SETTINGS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_TOUCHPAD_SCROLL_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">TouchDisc: параметры прокрутки</Control>
+		<Control ID="IDC_STATIC_TOUCHPAD_SCROLL_DESC">Панель TouchDisc позволяет выполнить быструю прокрутку по вертикали или по горизонтали.</Control>
+		<Control ID="IDC_STATIC_HORZ_SCROLL_SPEED" FONT="Arial" SCALE="1.2" BOLD="1">Горизонтальная прокрутка</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_SPEED" FONT="Arial" SCALE="1.2" BOLD="1">Вертикальная прокрутка</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_SLOW">Медленно</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_FAST">Быстро</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_NO_ACC">Без ускорения</Control>
+		<Control ID="IDC_STATIC_VERT_SCROLL_MAX_ACC">Макс. ускорение</Control>
+		<Control ID="IDC_MOUSE_TOUCHPAD_SCROLL_RESTORDEFAULTS">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+	</Dialog>
+	<Dialog ID="IDD_ORIENTATION" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_ORIENTATION_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Настройки ориентации</Control>
+		<Control ID="IDC_ORIENT_DESCRIPTION_TEXT">Эта функция позволяет настроить устройство для работы в новом положении.  Она предназначена для изменения положения переносного трекбола, но с ее помощью можно также подобрать более удобный угол положения мыши в руке.</Control>
+		<Control ID="IDC_ORIENT_SETUP_BUTTON">Настроить ориентацию</Control>
+		<Control ID="IDC_ORIENTATION_RESTORDEFAULTS">Восст. параметры</Control>
+	</Dialog>
+	<Dialog ID="IDD_SAVECHANGES_PROMPT">Сохранить изменения
+    <Control ID="IDC_STATIC_SAVECHANGES_PROMPT">Настройки можно изменить. Сохранить изменения нажатием кнопки "OK" или "Применить"?</Control>
+		<Control ID="IDC_CHECK_DONT_ASK">Больше не задавать этот вопрос</Control>
+		<Control ID="IDOK">Да</Control>
+		<Control ID="IDCANCEL">Нет</Control>
+	</Dialog>
+	<Dialog ID="IDD_KEYBOARD_INACTIVE_KEYS" WIDTH="735" HEIGHT="424">
+		<Control ID="IDC_STATIC_INACTIVE_KEYS" FONT="Arial" SCALE="1.4" BOLD="1">Неактивные клавиши клавиатуры</Control>
+		<Control ID="IDC_STATIC_INACTIVE_KEYS_DESC" FONT="Arial">Можно отключить клавиши, которые вы никогда не используете намеренно, но иногда нажимаете случайно. Для этого выберите клавиатуру и установите соответствующие флажки.</Control>
+		<Control ID="IDC_CHECK_DISABLE_CAPSLOCK_KEY" FONT="Arial">Отключить клавишу Caps Lock (рекомендуется)</Control>
+		<Control ID="IDC_CHECK_DISABLE_WINDOWS_KEY" FONT="Arial">Отключить кнопку Windows "Пуск" (рекомендуется только для любителей игр)</Control>
+		<Control ID="IDC_CHECK_DISABLE_SCROLLLOCK_KEY" FONT="Arial">Отключить клавишу Scroll Lock (рекомендуется)</Control>
+		<Control ID="IDC_CHECK_DISABLE_NUMLOCK_KEY" FONT="Arial">Отключить клавишу Num Lock </Control>
+		<Control ID="IDC_CHECK_DISABLE_INSERT_KEY" FONT="Arial">Отключить клавишу Insert </Control>
+		<Control ID="IDC_KEYBOARD_INACTIVEKEYS_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_HYPERLINK_HELP" FONT="Arial">Справка в Интернете</Control>
+    <Control ID="IDC_STATIC_TRACKPAD_PREFERENCES" FONT="Arial" SCALE="1.2" BOLD="1">Настройки сенсорной панели</Control>
+    <Control ID="IDC_CHECK_DISABLE_TRACKPAD" FONT="Arial">Отключить перемещение указателя при вводе</Control>
+  </Dialog>
+  <Dialog ID="IDD_TOOLS_DJ_TOOLS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_DJ_TAB_FIRST_LINE" FONT="Arial" SCALE="1.2" BOLD="1">Добавить/исключить технологию Unifying или 2,4 ГГц</Control>
+    <Control ID="IDC_STATIC_DJ_INFORMATION_RESOURCES" FONT="Arial">Подключите до шести совместимых беспроводных мышей и клавиатур к USB-приемнику Logitech Unifying или 2,4 ГГц.</Control>
+    <Control ID="IDC_STATIC_DJ_LAUNCH_RESOURCES" FONT="Arial">Чтобы узнать больше о ПО приемника,</Control>
+    <Control ID="IDC_BUTTON_DJ_UNIFY_SOFTWARE" FONT="Arial">Откройте программу</Control>
+    <Control ID="IDC_STATIC_HL_LOGIHOME" FONT="Arial">перейдите по ссылке</Control>
+  </Dialog>
+  <Dialog ID="IDD_NEW_FEATURE" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_NEWFEATURE_TITLE" FONT="Arial" SCALE="1.4" BOLD="1">Новые функции</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE" FONT="Arial" SCALE="1.2" BOLD="1">Для Logitech SetPoint доступны новые функции.</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE4" FONT="Arial">Ваши устройства Logitech работают нормально. Если вы хотите расширить их функциональные возможности при помощи новых программных функций, перечисленных ниже, нажмите кнопку "Установить обновления".</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE2" FONT="Arial" SCALE="1.2" BOLD="1">Функция:</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE3" FONT="Arial" SCALE="1.2" BOLD="1">Описание:</Control>
+    <Control ID="IDC_BUTTON_INSTALL_NOW" FONT="Arial">Установить обновления</Control>
+  </Dialog>
+  <Dialog ID="IDD_NEW_FEATUREPOPUP" WIDTH="735" HEIGHT="500">
+    <Control ID="IDC_STATIC_NEWFEATURE" FONT="Arial" SCALE="1.2" BOLD="1">Для Logitech SetPoint доступны новые функции</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE2" FONT="Arial" SCALE="1.2" BOLD="1">Функция:</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE3" FONT="Arial" SCALE="1.2" BOLD="1">Описание:</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE4" FONT="Arial">Ваши устройства Logitech работают нормально. Если вы хотите расширить их функциональные возможности при помощи новых программных функций, перечисленных ниже, нажмите кнопку "Установить обновления". Эти функции поддерживаются одним или несколькими из следующих устройств: %s</Control>
+    <Control ID="IDC_BUTTON_INSTALL_NOW" FONT="Arial">Установить обновления</Control>
+    <Control ID="IDC_EXIT">Выход</Control>
+  </Dialog>
+  <Dialog ID="IDD_HYBRIDPOPUP" WIDTH="735" HEIGHT="324">
+    <Control ID="IDC_STATIC_NEWFEATURE" FONT="Arial" SCALE="1.2" BOLD="1">Неподдерживаемое устройство</Control>
+    <Control ID="IDC_STATIC_NEWFEATURE4" FONT="Arial">Эта версия Logitech SetPoint поддерживает не все ваши устройства. Щелкните ниже, чтобы загрузить обновление.</Control>
+    <Control ID="IDC_BUTTON_INSTALL_NOW">Установить обновления</Control>
+    <Control ID="IDC_EXIT">Выход</Control>
+  </Dialog>
+
+  <!--//RMC_UI_CHANGES
+  <Dialog ID="IDD_DEVICE_SELECTION" WIDTH="778" HEIGHT="23">
+    <Control ID="IDC_STATIC_SELECTDEVICE" FONT="Arial" SCALE="1.2" BOLD="1">Select Device</Control>
+  </Dialog>
+  //RMC_UI_CHANGES-->
+  <Dialog ID="IDD_DEVICE_SELECTION" WIDTH="720" HEIGHT="39">
+    <Control ID="IDC_STATIC_SELECTDEVICE" FONT="Arial" SCALE="1.2" BOLD="1">Выберите устройство</Control>
+    <Control ID="IDC_STATIC_SINGLEDEVICE_NAME" FONT="Arial" SCALE="1.6" BOLD="1">НазваниеУстройства</Control>
+    <Control ID="IDC_BATTERYREMAIN_STATIC" FONT="Arial" SCALE="1.1" BOLD="1"/>
+  </Dialog>
+  
+  
+  <Dialog ID="IDD_MOUSE_ADVANCED_SETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_ADVANCED_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Дополнительные настройки</Control>
+    <Control ID="IDC_CHECK_APPSETTINGS" FONT="Arial">Разрешить уникальные настройки кнопок для конкретных приложений.\nСоздать собственные назначения кнопкам для отдельных приложений</Control>
+    <Control ID="IDC_BUTTON_CONFIGURE_APP_OVERRIDES" FONT="Arial">Настройка</Control>
+    <Control ID="IDC_MOUSE_ADV_SETTINGS_RESTOREDEFAULTS" FONT="Arial">Восст. параметры</Control>
+  </Dialog>
+  <Dialog ID="IDD_MOUSE_APP_OVERRIDE_SETTINGS" WIDTH="747" HEIGHT="570">Уникальные настройки кнопок для конкретных приложений
+    <Control ID="IDC_STATIC_MOUSE_NAME_TITLE" FONT="Arial" SCALE="1.6" BOLD="1"/>
+    <Control ID="IDC_STATIC_STEP1" FONT="Arial" SCALE="1.4" BOLD="1">1.</Control>
+    <Control ID="IDC_STATIC_MOUSE_SELECTPROGRAM" FONT="Arial" SCALE="1.2" BOLD="1">Выберите приложение</Control>
+    <Control ID="IDC_STATIC_STEP2" FONT="Arial" SCALE="1.4" BOLD="1">2.</Control>
+    <Control ID="IDC_STATIC_SELECTBUTTON" FONT="Arial" SCALE="1.2" BOLD="1">Выберите кнопку</Control>
+    <Control ID="IDC_STATIC_STEP3" FONT="Arial" SCALE="1.2" BOLD="1">3.</Control>
+    <Control ID="IDC_STATIC_SELECTTASK" FONT="Arial" SCALE="1.2" BOLD="1">Выберите задачу</Control>
+    <Control ID="IDC_STATIC_STEP3A" FONT="Arial" SCALE="1.2" BOLD="1">3a.</Control>
+    <Control ID="IDC_STATIC_TASKSETTINGS" FONT="Arial" SCALE="1.2" BOLD="1"/>
+    <Control ID="IDC_MOUSE_BUTTONS_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_SELECT_FUNCTION" FONT="Arial">Выберите функцию</Control>
+    <Control ID="IDC_STATIC_APP_OVERRIDE_EXISTS_LEGEND" FONT="Arial">Указывает на наличие уникальных настроек кнопки для конкретного приложения.</Control>
+    <Control ID="IDC_MOUSE_BUTTONS_CLOSE" FONT="Arial">Закрыть</Control>
+    <Control ID="IDC_BUTTON_ADD_PROGRAM" FONT="Arial">Добавить...</Control>
+    <Control ID="IDC_BUTTON_REMOVE_PROGRAM" FONT="Arial">Удалить...</Control>
+    <Control ID="IDC_STATIC_APP_OVERRIDE_NOT_ALLOWED" FONT="Arial">Для этой кнопки невозможно задать особые функции для конкретных приложений.</Control>
+    <Control ID="IDC_MOUSE_RADIO__NO_APPOVERRIDE" FONT="Arial">Нет задачи для конкретных приложений</Control>
+    <Control ID="IDOK">ОК</Control>
+    <Control ID="IDCANCEL">Отмена</Control>
+  </Dialog>
+  <Dialog ID="IDD_SMART_WHEEL_APP_OVERRIDE_SETTINGS" WIDTH="747" HEIGHT="570">Уникальные настройки колесика для конкретных приложений
+    <Control ID="IDC_STATIC_MOUSE_NAME_TITLE" FONT="Arial" SCALE="1.6" BOLD="1"/>
+    <Control ID="IDC_STATIC_MOUSE_SELECTPROGRAM" FONT="Arial" SCALE="1.2" BOLD="1">Выберите приложение</Control>
+    <Control ID="IDC_MOUSE_WHEEL_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_STATIC_SMARTSHIFT_TECHNOLOGY" FONT="Arial" SCALE="1.2" BOLD="1">Технология SmartShift</Control>
+    <Control ID="IDC_MOUSE_SMART_WHEEL_APP_OVERRIDES_CLOSE" FONT="Arial">Закрыть</Control>
+    <!--<Control ID="IDC_STATIC_APP_SPECIFIC_MOUSE_NAME_TITLE" FONT="Arial">Application specific button settings for :</Control>-->
+    <Control ID="IDC_BUTTON_ADD_PROGRAM" FONT="Arial">Добавить...</Control>
+    <Control ID="IDC_BUTTON_REMOVE_PROGRAM" FONT="Arial">Удалить...</Control>
+    <Control ID="IDOK">ОК</Control>
+    <Control ID="IDCANCEL">Отмена</Control>
+  </Dialog>
+  <Dialog ID="IDD_KEYBOARD_ILLUMINATION_SETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_ILLUMINATION_SETTINGS" FONT="Arial" SCALE="1.4" BOLD="1">Настройки подсветки клавиатуры</Control>
+    <Control ID="IDC_RADIO_HAND_DETECTION" FONT="Arial">Включать подсветку при обнаружении рук. (Рекомендуется)</Control>
+    <Control ID="IDC_RADIO_ENABLE_ILLUMINATION" FONT="Arial">Включать подсветку только при начале ввода</Control>
+    <Control ID="IDC_STATIC_ILLUMINATION_TIMEOUT" FONT="Arial">Отключить подсветку, когда клавиатура не используется в течение</Control>
+    <Control ID="IDC_RADIO_DISABLE_ILLUMINATION" FONT="Arial">Отключить подсветку клавиатуры</Control>
+    <Control ID="IDC_CHECK_ENABLE_ILLUMINATION_OSD" FONT="Arial">Отображать на экране визуальные уведомления при регулировке подсветки вручную.</Control>
+    <Control ID="IDC_STATIC_OSD_NOTIFICATION" FONT="Arial">Контекстная справка для настроек OSD подсветки</Control>
+    <Control ID="IDC_KEYBOARD_ILLUMINATION_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+  </Dialog>
+  <Dialog ID="IDD_KEYBOARD_SOLAR_SETTINGS" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_SOLARDASHBOARD_TITLE_DISPLAY" FONT="Arial" SCALE="1.4" BOLD="1">Logitech Solar App</Control>
+    <Control ID="IDC_STATIC_SOLARDASHBOARD_DISPLAY2" FONT="Arial">Приложение Logitech Solar App используется для проверки запаса энергии клавиатуры. Оно позволяет измерять интенсивность света в помещении, проверять текущее состояние питания клавиатуры и получать уведомления в случае снижения запаса энергии.</Control>
+    <Control ID="IDC_KEYBOARD_LAUNCH_SOLAR_DASHBOARD" FONT="Arial">Открыть Solar App</Control>
+  </Dialog>
+  <Dialog ID="IDD_HYBRID_PROBING_DLG" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_PROBING_TITLE" FONT="Arial" SCALE="1.4" BOLD="1">Устройство инициализируется</Control>
+    <Control ID="IDC_STATIC_PROBING_MSG" FONT="Arial">Устройство инициализируется. Если инициализация продолжается дольше минуты, отключите устройство, а затем включите, чтобы повторить инициализацию.</Control>
+    <Control ID="IDC_CLOSE">Закрыть</Control>
+  </Dialog>
+
+  <Dialog ID="IDD_MOUSE_GESTURE_POINTCLICK" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_POINTCLICK" FONT="Arial" SCALE="1.4" BOLD="1">Указание и щелчки</Control>
+    <Control ID="IDC_CHECK_LEFT_CLICK" FONT="Arial">Основной щелчок</Control>
+    <Control ID="IDC_CHECK_MIDDLE_CLICK" FONT="Arial">Щелчок средней кнопкой</Control>
+    <Control ID="IDC_CHECK_RIGHT_CLICK" FONT="Arial">Щелчок правой кнопкой мыши</Control>
+    <Control ID="IDC_CHECK_SMARTMOVE" FONT="Arial">Включить функцию Smart Move</Control>
+    <Control ID="IDC_CHECK_START_SCREEN" FONT="Arial">Начальный экран</Control>
+    <Control ID="IDC_CHECK_APP_SWITCH" FONT="Arial">Справка в Интернете</Control>
+    <Control ID="IDC_CHECK_SHOW_HIDE_DESKTOP" FONT="Arial">Свернуть все окна</Control>
+    <Control ID="IDC_STATIC_SURFACE_CURSORSPEED" FONT="Arial">Скорость перемещения указателя</Control>
+    <Control ID="IDC_STATIC_CURSOR_SPEEDSLOW" FONT="Arial">Медленно</Control>
+    <Control ID="IDC_STATIC_CURSOR_SPEEDFAST" FONT="Arial">Быстро</Control>
+    <Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_CHECK_ENABLE_POINTER_MOVEMENT" FONT="Arial">Перемещение указателя</Control>
+    <Control ID="IDC_CONTROL_SWAPHAND" FONT="Arial">Обмен функций левой и правой кнопок мыши местами</Control>
+    <Control ID="IDC_STATIC_POINTER_MOVEMENT_GESTURE_ACTION" FONT="Arial">Чтобы отключить указатель, снимите флажок</Control>
+    <Control ID="IDC_STATIC_SWAP_BUTTONS_GESTURE_ACTION" FONT="Arial">Основной щелчок правой кнопкой мыши</Control>
+    <Control ID="IDC_CHECK_ENABLE_DRAGGING" FONT="Arial">Включить перетаскивание</Control>
+    <Control ID="IDC_STATIC_ENABLE_DRAGGING_GESTURE_ACTION" FONT="Arial">Дважды коснуться для перетаскивания</Control>
+  </Dialog>
+
+  <Dialog ID="IDD_MOUSE_GESTURE_WINDOWS_NAV" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_GESTURE_WINDOWS_NAV" FONT="Arial" SCALE="1.4" BOLD="1">Навигация в Windows</Control>
+    <Control ID="IDC_CHECK_SWITCH_APPS" FONT="Arial">Переключение между приложениями</Control>
+    <Control ID="IDC_CHECK_SHOW_CHARMS" FONT="Arial">Отображение чудо-кнопок</Control>
+    <Control ID="IDC_CHECK_SHOW_HIDE_DESKTOP" FONT="Arial">Отображение/скрытие рабочего стола</Control>
+    <Control ID="IDC_STATIC_SHOW_CHARM_GESTURE_ACTION" FONT="Arial">Провести от правого края мыши 1 пальцем</Control>
+    <Control ID="IDC_STATIC_SHOW_HIDE_DESKTOP_GESTURE_ACTION" FONT="Arial">Дважды коснуться задней части кнопочной пластины 3 пальцами</Control>
+    <Control ID="IDC_CHECK_SNAP_WINDOWS_LEFTRIGHT" FONT="Arial">Привязка окон слева или справа</Control>
+    <Control ID="IDC_STATIC_SNAP_WINDOWS_LEFTRIGHT_GESTURE_ACTION2" FONT="Arial">Провести тремя пальцами горизонтально</Control>
+    <Control ID="IDC_STATIC_MIDDLE_CLICK_GESTURE_ACTION" FONT="Arial">Щелкнуть заднюю часть клавишной пластины</Control>
+    <Control ID="IDC_CHECK_START_SCREEN" FONT="Arial">Начальный экран</Control>
+    <Control ID="IDC_CHECK_MAXIMIZE_MINIMIZE_WINDOWS" FONT="Arial">Развертывание/свертывание окон на рабочем столе</Control>
+    <Control ID="IDC_STATIC_MIDDLE_CLICK_GESTURE_ACTION" FONT="Arial">Начальный экран</Control>
+    <Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_CHECK_SHOW_APP_MENU" FONT="Arial">Показать панель приложений Windows 8 или закрыть приложение</Control>
+    <Control ID="IDC_CHECK_ZOOM_IN_OUT" FONT="Arial">Увеличение и уменьшение</Control>
+	</Dialog>
+
+  <Dialog ID="IDD_MOUSE_GESTURE_CONTENT_NAV" WIDTH="735" HEIGHT="424">
+    <Control ID="IDC_STATIC_GESTURE_CONTENT_NAV" FONT="Arial" SCALE="1.4" BOLD="1">Прокрутка</Control>
+    <Control ID="IDC_CHECK_SCROLL_HORIZONTAL" FONT="Arial">Горизонтальная прокрутка</Control>
+    <Control ID="IDC_STATIC_START_SCREEN_GESTURE_ACTION" FONT="Arial">Дважды коснуться 4 пальцами</Control>
+    <Control ID="IDC_CHECK_BACK_FORWARD" FONT="Arial">Назад и вперед</Control>
+    <Control ID="IDC_CHECK_SEMANTIC_ZOOM" FONT="Arial">Семантический зум</Control>
+    <Control ID="IDC_STATIC_SHOW_CHARM_GESTURE_ACTION" FONT="Arial">Провести от правого края мыши 1 пальцем</Control>
+    <Control ID="IDC_STATIC_SHOW_HIDE_DESKTOP_GESTURE_ACTION" FONT="Arial">Дважды коснуться задней части кнопочной пластины 3 пальцами</Control>
+    <Control ID="IDC_CHECK_ROTATE" FONT="Arial">Поворот</Control>
+    <Control ID="IDC_STATIC_ROTATE_GESTURE_ACTION2" FONT="Arial">Провести 3 пальцами горизонтально</Control>
+    <Control ID="IDC_CHECK_SCROLL_VERTICAL" FONT="Arial">Вертикальная прокрутка</Control>
+    <Control ID="IDC_STATIC_START_SCREEN_GESTURE_ACTION2" FONT="Arial">Провести вертикально 1 или несколькими пальцами</Control>
+    <Control ID="IDC_CHECK_ZOOM_IN_OUT" FONT="Arial">Увеличение и уменьшение</Control>
+    <Control ID="IDC_STATIC_ZOOM_IN_OUT_GESTURE_ACTION" FONT="Arial">Провести 3 пальцами горизонтально</Control>
+    <Control ID="IDC_MOUSE_SCROLL_OPTIONS" FONT="Arial">Параметры прокрутки</Control>
+    <Control ID="IDC_MOUSE_CURSOR_RESTORDEFAULTS" FONT="Arial">Восст. параметры</Control>
+    <Control ID="IDC_CHECK_PAGE_UP_DOWN" FONT="Arial">Страница вверх/страница вниз</Control>    
+  </Dialog>
+  <Dialog ID="IDD_SCROLL_OPTIONS" WIDTH="438" HEIGHT="338">Параметры прокрутки
+    <Control ID="IDC_STATIC_SCROLL_SPEED" FONT="Arial">Шаг скорости</Control>
+    <Control ID="IDC_CHECK_REVERSE_SCROLL_DIRECTION" FONT="Arial">Направление прокрутки</Control>
+    <Control ID="IDC_STATIC_REVERSE_SCROLL_DIRECTION" FONT="Arial">Содержимое перемещается в том же направлении, что и палец</Control>
+    <Control ID="IDC_CHECK_SMOOTH_SCROLL" FONT="Arial">Плавная прокрутка</Control>
+    <Control ID="IDC_STATIC_SMOOTH_SCROLLING" FONT="Arial">Плавное перемещение содержимого</Control>
+    <Control ID="IDC_CHECK_INERTIA_SCROLL" FONT="Arial">Прокрутка по инерции</Control>
+    <Control ID="IDC_STATIC_SCROLL_WITH_INERTIA" FONT="Arial">Быстро переместить палец для прокрутки на большое расстояние</Control>
+    <Control ID="IDOK">ОК</Control>
+    <Control ID="IDCANCEL">Отмена</Control>
+    <Control ID="IDC_STATIC_SCROLL_SENSITIVITY">Чувствительность прокрутки</Control>
+    <Control ID="IDC_STATIC_SCROLL_SENSITIVITY_SLOW">Медленное</Control>
+    <Control ID="IDC_STATIC_SCROLL_SENSITIVITY_FAST">Быстро</Control>
+  </Dialog>
+</Source>

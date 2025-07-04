@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Source>
+	<language xml:lang="ru-ru"/>
+	<ActiveStringSet ID="Main"/>
+	<StringSet ID="Main">
+		<!-- Toby MediaPad Display -->
+		<!-- Set the LCD_COUNTRY_ID according to this table:
+            English							1
+            German							2
+            French							3
+            Italian							4
+            Spanish							5
+            Dutch							6
+            Brazilian/Portuguese			7
+            Swedish							8
+            Danish							9
+            Norwegian						A
+            Finnish							B
+	  Russian							C
+	  Polish							D
+	  Greek							E
+	  Chinese Simplified(CHS)					F
+	  Chinese Traditional(CHT)					G
+	  Japanese(JPN)						H
+	  Korean (KOR)						I
+
+            For example, English is "1" and "German" is "2" and Finnish is "B" - please note that
+            this can be ONE character long only.
+    -->
+		<String ALIAS="LCD_COUNTRY_ID">C</String>
+		<!-- The following aliases should be set according to the Excel spreadsheet
+         "LCD Localization 1.3.xls" by Francois Campart. -->
+		<!-- LCD_MONTHS contains the abbreviated names of each month, separated by \n.
+         For each month, specify the 3 letter abbreviation, e.g. "January" is "Jan".
+         Put a '.' after the month if the country puts periods after the month.
+         For example, in German, there is supposed to be a '.' after the month.
+         The '.' should appear, e.g. "Jan.\nFeb.\nMrz.\n", etc.
+    -->
+		<String ALIAS="LCD_MONTHS">Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec</String>
+		<!-- If a leading 0 should be shown in the date (e.g. "Aug 03"), set to 1.  If not, set to 0. -->
+		<String ALIAS="LCD_LEAD_0_DATE">1</String>
+		<!-- If a leading 0 should be shown in the time (e.g. "09:50"), set to 1.  If not, set to 0. -->
+		<String ALIAS="LCD_LEAD_0_TIME">0</String>
+		<!-- If AM/PM time format, set to 1.  If 24 hour time format, set to 0.-->
+		<String ALIAS="LCD_TIME_FORMAT">0</String>
+		<String ALIAS="LCD_CONNECTING">Подключение</String>
+		<String ALIAS="LCD_NONETWORK">Сеть отсутствует</String>
+		<String ALIAS="LCD_FAILED">Не удается</String>
+		<String ALIAS="LCD_CONNECTED">Подключено :-)</String>
+		<!-- Smiley ":-)" must be appended -->
+		<String ALIAS="LCD_BATTERYSTATUS"/>
+		<String ALIAS="LCD_MORNING_GREETING">С добрым утром</String>
+		<String ALIAS="LCD_AFTERNOON_GREETING">Добрый день</String>
+		<String ALIAS="LCD_EVENING_GREETING">Добрый вечер</String>
+		<!-- If the dots between the time display should blink, set to 1.  If not, set to 0.-->
+		<String ALIAS="LCD_BLINK_DOTS">1</String>
+		<!-- Define the number of space to add before the time display-->
+		<String ALIAS="LCD_START_POS">3</String>
+		<!-- OSD Text -->
+		<String ALIAS="OSD_PLAYPAUSE">Воспроизведение/пауза</String>
+		<String ALIAS="OSD_STOP">остановить</String>
+		<String ALIAS="OSD_NEXT_TRACK">следующая</String>
+		<String ALIAS="OSD_PREV_TRACK">предыдущая</String>
+		<String ALIAS="OSD_FASTFORWARD">Поиск &gt;&gt;</String>
+		<String ALIAS="OSD_REWIND">&lt;&lt; Поиск</String>
+		<!-- Helpstrings -->
+		<String ALIAS="HELP_FIRSTBUTTONUSAGE">Использование первой кнопки</String>
+		<String ALIAS="HELP_MIDDLEBUTTON">Средняя кнопка</String>
+		<String ALIAS="HELP_RIGHTBUTTON">Щелчок правой кнопкой мыши</String>
+		<String ALIAS="HELP_LEFTBUTTON">Щелчок левой кнопкой мыши</String>
+		<String ALIAS="HELP_PLAYSOUND">Воспроизведение звука</String>
+		<String ALIAS="HELP_MAXIMIZE">Развернуть</String>
+		<String ALIAS="HELP_MINIMIZE">Свернуть</String>
+		<String ALIAS="HELP_QUICKSWITCH">Переключение приложения</String>
+		<String ALIAS="HELP_SEARCH">Поиск</String>
+		<String ALIAS="HELP_ITOUCH_SEARCH">Поиск</String>
+		<String ALIAS="HELP_WINDOWS_RUNKEY">Windows RunKey</String>
+		<String ALIAS="HELP_CLOSEAPP">Закрыть</String>
+		<String ALIAS="HELP_CLIP_COPY">Копировать</String>
+		<String ALIAS="HELP_CLIP_CUT">Вырезать</String>
+		<String ALIAS="HELP_CLIP_PASTE">Вставить</String>
+		<String ALIAS="HELP_PAGEDOWN">Страница вниз</String>
+		<String ALIAS="HELP_PAGEUP">Страница вверх</String>
+		<String ALIAS="HELP_UNASSIGNED">Не назначено</String>
+    <String ALIAS="HELP_UNSUPPORTED">Неподдерживаемая кнопка</String>
+    <String ALIAS="HELP_UNKNOWNFEATURE">Неизвестная функция</String>
+    <String ALIAS="HELP_NOTHING">Действия не требуются</String>
+		<String ALIAS="HELP_WEBCAM">Webcam (Веб-камера)</String>
+		<String ALIAS="HELP_CUSTOM_MENU">Показать настраиваемое меню</String>
+		<String ALIAS="HELP_MYCOMPUTER">Мой компьютер</String>
+		<String ALIAS="HELP_MYDOCUMENTS">Мои документы</String>
+		<String ALIAS="HELP_MYPICTURES">Мои рисунки</String>
+		<String ALIAS="HELP_MYMUSIC">Мои музыкальные записи</String>
+		<String ALIAS="HELP_MYVIDEOS">Мое видео</String>
+		<String ALIAS="HELP_OPENFILE">Открыть файл</String>
+		<String ALIAS="HELP_OPENFOLDER">Открыть папку</String>
+		<String ALIAS="HELP_LAUNCHPROG">Запустить программу</String>
+		<String ALIAS="HELP_CALCULATOR">Калькулятор</String>
+		<String ALIAS="HELP_MEDIADESKTOP">Media Desktop</String>
+		<String ALIAS="HELP_CONTROLPANEL">Панель управления</String>
+		<String ALIAS="HELP_WEBPAGE">Открыть веб-страницу</String>
+		<String ALIAS="HELP_HOMEPAGE">Home (Моя домашняя страница)</String>
+		<String ALIAS="HELP_ITOUCH">iTouch</String>
+		<String ALIAS="HELP_SHOPPING">Shopping (Покупки)</String>
+		<String ALIAS="HELP_FAVORITES">Favorites (Избранное)</String>
+		<String ALIAS="HELP_BACK">Назад</String>
+		<String ALIAS="HELP_FORWARD">Вперед</String>
+		<String ALIAS="HELP_EMAIL">E-Mail (Электронная почта)</String>
+		<String ALIAS="HELP_MESSENGER">Messenger</String>
+		<String ALIAS="HELP_MEDIAPLAYER">Проигрыватель мультимедиа</String>
+		<String ALIAS="HELP_MEDIA_CENTER_PLAYER">Мультимедийный центр</String>
+		<String ALIAS="HELP_REMOTE_MEDIAPLAYER">MediaLife</String>
+		<String ALIAS="HELP_INAV">iNav</String>
+		<String ALIAS="HELP_INAVGO">iNav-переход</String>
+		<String ALIAS="HELP_INAVBACK">iNav-назад</String>
+		<String ALIAS="HELP_INAVWHEEL">iNav-колесико</String>
+		<String ALIAS="HELP_CRUISEUP">Переместиться вверх</String>
+		<String ALIAS="HELP_CRUISEDOWN">Переместиться вниз</String>
+		<String ALIAS="HELP_OFFICE_NEW">Создать</String>
+		<String ALIAS="HELP_OFFICE_REPLY">Ответить</String>
+		<String ALIAS="HELP_OFFICE_FORWARD">Вперед</String>
+		<String ALIAS="HELP_OFFICE_SEND">Отправить</String>
+		<String ALIAS="HELP_OFFICE_UNDO">Отменить</String>
+		<String ALIAS="HELP_OFFICE_REDO">Вернуть</String>
+		<String ALIAS="HELP_OFFICE_PRINT">Печать</String>
+		<String ALIAS="HELP_OFFICE_SAVE">Сохранить</String>
+		<String ALIAS="HELP_DRAGLOCK">Блокировка перетаскивания</String>
+		<String ALIAS="HELP_AUTOSCROLL">AutoScroll</String>
+		<String ALIAS="HELP_UNIVERSALSCROLL">Universal Scroll</String>
+		<String ALIAS="HELP_MM_VOLUP">Увеличить громкость</String>
+		<String ALIAS="HELP_MM_VOLDOWN">Уменьшить громкость</String>
+		<String ALIAS="HELP_MM_PLAY">Воспроизведение</String>
+		<String ALIAS="HELP_MM_STOP">Стоп</String>
+		<String ALIAS="HELP_MM_NEXT">Следующий</String>
+		<String ALIAS="HELP_MM_PREV">Предыдущий</String>
+		<String ALIAS="HELP_MM_FASTFORWARD">Поиск &gt;&gt;</String>
+		<String ALIAS="HELP_MM_REWIND">&lt;&lt; Поиск</String>
+		<String ALIAS="HELP_MM_TUNEUP">Настройка</String>
+		<String ALIAS="HELP_MM_TUNEDOWN">Настройка</String>
+		<String ALIAS="HELP_MM_SHUFFLE">В случайном порядке</String>
+		<String ALIAS="HELP_MM_MUTE">без звука</String>
+		<String ALIAS="HELP_ROTATE_RIGHT">Поворот вправо</String>
+		<String ALIAS="HELP_ROTATE_LEFT">Поворот влево</String>
+		<String ALIAS="HELP_EJECT">Извлечь диск</String>
+    <String ALIAS="HELP_WIN10_TASK_VIEW">Представление задач</String>
+    <String ALIAS="HELP_WIN10_DESKTOP_LEFT">Рабочий стол (левый)</String>
+    <String ALIAS="HELP_WIN10_DESKTOP_RIGHT">Рабочий стол (правый)</String>
+    <String ALIAS="HELP_WIN10_ACTION_CENTER">Центр поддержки</String>
+    <String ALIAS="HELP_KEYSTROKE">Функции сочетаний клавиш</String>
+		<String ALIAS="HELP_PREVIOUS_APP">Предыдущее приложение</String>
+		<String ALIAS="HELP_NEXT_APP">Следующее приложение</String>
+		<String ALIAS="HELP_HELP">Справка</String>
+		<String ALIAS="HELP_SEARCH_FOR_FILES">Поиск файлов</String>
+    <String ALIAS="HELP_WINDOWS_LOCKPC">Блокировка компьютера</String>
+    <String ALIAS="HELP_WINDOWS_MINIMIZE">Свернуть все окна</String>
+    <String ALIAS="HELP_WINDOWS_RESTORE">Восстановить все окна</String>
+    <String ALIAS="HELP_DOCUMENTS">Документ</String>
+		<String ALIAS="HELP_SPREADSHEETS">Электронная таблица</String>
+		<String ALIAS="HELP_CALENDAR">Календарь</String>
+		<String ALIAS="HELP_DOUBLECLICK">Двойной щелчок</String>
+		<String ALIAS="HELP_WINSWITCH">Переключение между окнами</String>
+		<String ALIAS="HELP_STARTMENU">Меню кнопки «Пуск»</String>
+		<String ALIAS="HELP_GENERIC_MOUSE_BUTTON">Стандартная кнопка</String>
+    <String ALIAS="HELP_GENERIC_BUTTON">Стандартная кнопка</String>
+    <String ALIAS="HELP_OS_DEFAULT_MOUSE_BUTTON">ОС по умолчанию</String>
+		<String ALIAS="HELP_HORZ_SCROLL_LEFT">Прокрутка влево</String>
+		<String ALIAS="HELP_HORZ_SCROLL_RIGHT">Прокрутка вправо</String>
+    <String ALIAS="HELP_ZOOM_SET">Масштаб</String>
+		<String ALIAS="HELP_TOGGLESTATUS">Состояние</String>
+		<String ALIAS="HELP_BURN">Прожиг</String>
+		<String ALIAS="HELP_RECORD">Запись</String>
+		<String ALIAS="HELP_PRESENTATION">Презентация</String>
+    <String ALIAS="HELP_PANANDZOOM">Панорамирование и масштабирование</String>
+		<!-- Lock notification -->
+		<String ALIAS="HELP_LOCK_CAPS_ON"> Caps Lock вкл.</String>
+		<String ALIAS="HELP_LOCK_CAPS_OFF"> Caps Lock выкл.</String>
+		<String ALIAS="HELP_LOCK_SCROLL_ON">Scroll Lock вкл.</String>
+		<String ALIAS="HELP_LOCK_SCROLL_OFF">Scroll Lock выкл.</String>
+		<String ALIAS="HELP_LOCK_NUMS_ON">Num Lock вкл.</String>
+		<String ALIAS="HELP_LOCK_NUMS_OFF">Num Lock выкл.</String>
+		<!-- Step 3A text for generic handlers -->
+		<String ALIAS="IDS_SELECT_FILE">Выберите файл</String>
+		<String ALIAS="IDS_SELECT_PROGRAM">Выберите программу</String>
+		<String ALIAS="IDS_SELECT_FOLDER">Выберите папку</String>
+		<!-- Playlist handlers (PresetBtns) -->
+		<String ALIAS="HELP_PLAYLIST">Мое избранное</String>
+		<!-- Zoom Button handlers (ZoomBtns) -->
+		<String ALIAS="HELP_ZOOMBTN_IN"> Увеличить</String>
+		<String ALIAS="HELP_ZOOMBTN_OUT"> Уменьшить</String>
+		<String ALIAS="HELP_ZOOMBTN_RESET"> Восстановить масштаб</String>
+		<!-- Script handler -->
+		<String ALIAS="HELP_RUNSCRIPT"> Запуск сценария</String>
+		<!-- iNav Scroll -->
+		<String ALIAS="HELP_SCROLL"> Прокрутка</String>
+		<!-- Error Message Text -->
+		<String ALIAS="IDS_SETPOINT_CAPTION">Logitech SetPoint</String>
+		<String ALIAS="SETPOINT_MISSING_FILES_ERROR">В связи с обнаруженной проблемой работа SetPoint не может быть продолжена. Для устранения неполадки повторно установите SetPoint.</String>
+		<String ALIAS="HELP_ONETOUCHSYNC">Easy Synchronization</String>
+		<!-- copying Calc result onto clipboard preference dialog -->
+		<String ALIAS="HELP_CLIPBOARD_PREFERENCE">Параметры буфера обмена</String>
+		<String ALIAS="HELP_SENSITIVITY_INCREASE">Повышение чувствительности</String>
+		<String ALIAS="HELP_SENSITIVITY_DECREASE">Снижение чувствительности</String>
+		<String ALIAS="HELP_NAVIGATION_WHEEL">Колесико навигации</String>
+		<String ALIAS="HELP_SMART_KEY">Мое избранное</String>
+		<!-- AppOverrides for Back and Forward Mouse Button -->
+		<String ALIAS="HELP_OUTLOOK_BACK">Назад (Outlook)</String>
+		<String ALIAS="HELP_OUTLOOK_FORWARD">Вперед (Outlook)</String>
+		<String ALIAS="HELP_OUTLOOK_EXPRESS_BACK">Назад (Outlook Express)</String>
+		<String ALIAS="HELP_OUTLOOK_EXPRESS_FORWARD">Вперед (Outlook Express)</String>
+		<String ALIAS="HELP_WORD_BACK">Назад (Word)</String>
+		<String ALIAS="HELP_WORD_FORWARD">Вперед (Word)</String>
+		<String ALIAS="HELP_POWERPOINT_BACK">Назад (PowerPoint)</String>
+		<String ALIAS="HELP_POWERPOINT_FORWARD">Вперед (PowerPoint)</String>
+		<String ALIAS="HELP_MINDMAPPER_BACK">Назад (MindMapper)</String>
+		<String ALIAS="HELP_MINDMAPPER_FORWARD">Вперед (MindMapper)</String>
+		<String ALIAS="HELP_EXCEL_BACK">Назад (Excel)</String>
+		<String ALIAS="HELP_EXCEL_FORWARD">Вперед (Excel)</String>
+		<String ALIAS="HELP_LOTUS_NOTES_BACK">Назад (Notes)</String>
+		<String ALIAS="HELP_LOTUS_NOTES_FORWARD">Вперед (Notes)</String>
+		<String ALIAS="HELP_EMAIL_ITEM">Загрузить электронную почту</String>
+		<String ALIAS="HELP_IM_ITEM">Загрузить Messenger</String>
+		<String ALIAS="HELP_EMAIL_NOTIFICATION">Уведомление: эл. почта</String>
+		<String ALIAS="HELP_IM_NOTIFICATION">Уведомление: мгн. сообщение</String>
+		<String ALIAS="HELP_EASYSYNC">Синхронизация</String>
+		<String ALIAS="HELP_BROWSER_STOP">Стоп в Интернете</String>
+		<String ALIAS="HELP_BROWSER_REFRESH">Обновить Интернет</String>
+		<String ALIAS="HELP_SMART_SEARCH">One-Touch Search</String>
+		<String ALIAS="HELP_INTERNET_SEARCH">Поиск в Интернете одним касанием</String>
+		<String ALIAS="HELP_DESKTOP_SEARCH">Поиск на рабочей станции одним касанием</String>
+		<String ALIAS="HELP_VOIP_SET">VoIP</String>
+		<String ALIAS="HELP_VOIP_BASIC_SET">VoIP</String>
+		<String ALIAS="HELP_VOIP_ADVANCED_SET">VoIP</String>
+		<String ALIAS="HELP_VOIP_CALL_SET">Вызов</String>
+		<String ALIAS="HELP_VOIP_HANGUP_SET">Повесить трубку</String>
+		<String ALIAS="HELP_STANDBY">Спящий режим</String>
+		<String ALIAS="HELP_PICTURE_APP">Приложение Picture (Рисунок)</String>
+		<String ALIAS="HELP_PICTURE_SEARCH">Рисунки</String>
+		<String ALIAS="HELP_NEW_FOLDER">Новая папка</String>
+		<String ALIAS="HELP_KEYBOARD_BEEP">Будильник с ЖК-дисплеем</String>
+		<String ALIAS="HELP_SCREEN_SAVER">Запуск режима сохранения экрана</String>
+		<String ALIAS="HELP_SENSITIVITY_TOGGLE">Переключение чувствительности</String>
+		<String ALIAS="HELP_WINDOWS_DESKTOP">Показать рабочий стол</String>
+		<String ALIAS="HELP_LAUNCH_PRESET_1">Загрузить избранное a</String>
+		<String ALIAS="HELP_LAUNCH_PRESET_2">Загрузить избранное b</String>
+		<String ALIAS="HELP_LAUNCH_PRESET_3">Загрузить избранное c</String>
+		<String ALIAS="HELP_LAUNCH_PRESET_4">Загрузить избранное d</String>
+		<String ALIAS="HELP_DESKTOP_SEARCH_APP">Поиск на компьютере</String>
+		<String ALIAS="HELP_STANDBY">Спящий режим</String>
+		<String ALIAS="HELP_RESTART">Перезагрузка</String>
+		<String ALIAS="HELP_SHUTDOWN">Завершение работы</String>
+		<String ALIAS="HELP_LOGOFF">Выход из системы</String>
+		<String ALIAS="HELP_VOIP_PRESET">Настройка связи</String>
+		<String ALIAS="HELP_VOIP_DIAL_NUMBER">Набор номера</String>
+		<String ALIAS="HELP_VOIP_CHAT">Чат</String>
+		<String ALIAS="HELP_STROMBOLI_MENU">MenuCast</String>
+		<String ALIAS="HELP_STROMBOLI_MAGNIFY">Увеличить</String>
+		<String ALIAS="HELP_CURSOR_FREEZE">Закрепить курсор Air</String>
+		<String ALIAS="HELP_LAUNCH_MEDIA_CENTER">Windows Media Center</String>
+		<String ALIAS="HELP_FIVE_BUTTON_VOLUME">Громкость</String>
+		<String ALIAS="HELP_FIVE_BUTTON_MEDIA">Мультимедиа</String>
+		<String ALIAS="HELP_FIVE_BUTTON_MEDIA">Мультимедиа</String>
+		<String ALIAS="HELP_STROMBOLI_VOL">Откл.звук (Настр. громк. в воздухе)</String>
+		<String ALIAS="HELP_STROMBOLI_MEDIACONTROL">Воспр./пауза (След./предыд. в возд.)</String>
+		<String ALIAS="HELP_STROMBOLI_ZOOM">Масштабирование в воздухе</String>
+		<String ALIAS="HELP_ARROW_UP">Вверх</String>
+		<String ALIAS="HELP_ARROW_DOWN">Вниз</String>
+		<String ALIAS="HELP_MANUAL_SHIFT">Переключение режимов прокрутки</String>
+		<String ALIAS="HELP_FREEZE_BACK">Назад (Закрепить курсор Air)</String>
+		<String ALIAS="IDS_TASK_DESCRIPTION">Описание задачи</String>
+		<String ALIAS="HELP_FIVE_BUTTON_AUTOSCROLL">AutoScroll</String>
+		<String ALIAS="HELP_FIVE_BUTTON_UNIVERSALSCROLL">Universal Scroll</String>
+		<String ALIAS="HELP_FIVE_BUTTON_THUMBSCROLL">Thumb Scroll</String>
+		<String ALIAS="HELP_FIVE_BUTTON_SEARCH">Поиск</String>
+		<String ALIAS="HELP_FIVE_BUTTON_KEYSTROKE">Несколько сочетаний клавиш</String>
+		<String ALIAS="HELP_GADGETS">Гаджеты</String>
+		<String ALIAS="HELP_GESTURE_RECENTER">Вернуть в центр</String>
+    <String ALIAS="HELP_BATTERY_STATUS">Состояние батареи</String>
+    <String ALIAS="HELP_APPLICATION_SWITCH">Переключатель приложений</String>
+    <String ALIAS="HELP_WIN8CHARM_APPSWITCH_GIFANIMATION">Сочетания клавиш в Windows 8</String>
+    <String ALIAS="HELP_DPISETTINGS_SET">Чувствительность мыши</String>
+    <String ALIAS="HELP_THREE_LEVEL_DPISETTINGS">Чувствительность мыши</String>
+    <String ALIAS="HELP_TWOSWITCH_DPISETTINGS_SET">Чувствительность мыши</String>
+    <String ALIAS="HELP_TWOSWITCH_CRUISE_SET">Вверх/вниз</String>
+    <String ALIAS="HELP_TWOSWITCH_PAGE_SET">Страница вверх/Страница вниз</String>
+    <String ALIAS="HELP_TWOSWITCH_BACK_FORWARD_SET">Вперед/Назад</String>
+    <String ALIAS="HELP_TWOSWITCH_NEXT_PREVIOUS_SET">Следующий/Предыдущий</String>
+    <String ALIAS="HELP_TWOSWITCH_KEYSTROKE_SET">Назначение сочетания клавиш</String>
+    <String ALIAS="HELP_TWOSWITCH_COPY_PASTE_SET">Копировать/Вставить</String>
+    <String ALIAS="HELP_DPI_SWITCH">Чувствительность мыши</String>
+    <String ALIAS="HELP_WINDOWS_METROSTARTSCREEN">Начальный экран</String>
+    <String ALIAS="HELP_WINDOWS_METROCHARMS">Чудо-кнопки</String>
+    <String ALIAS="HELP_WINDOWS_METROAPPSWITCH">Переключение между приложениями</String>
+    <String ALIAS="HELP_WINDOWS_METROAPPMENU">Меню приложений</String>
+    <String ALIAS="HELP_WINDOWS_METROSEARCH">Поиск</String>
+    <String ALIAS="HELP_WINDOWS_METROAPPBAR">Панель приложений</String>
+    <String ALIAS="HELP_WINDOWS_METROSHARE">Общий доступ</String>
+    <String ALIAS="HELP_WINDOWS_METROSETTINGS">Параметры</String>
+    <String ALIAS="HELP_WINDOWS_METRODEVICES">Устройства</String>
+
+    <String ALIAS="HELP_WINDOWS8_STARTSCREEN">Начальный экран Windows 8</String>
+    <String ALIAS="HELP_WINDOWS8_CHARMS">Чудо-кнопки Windows 8</String>
+    <String ALIAS="HELP_WINDOWS8_APPMENU">Панель приложений Windows 8</String>
+    <String ALIAS="HELP_WINDOWS8_SEARCH">Поиск Windows 8</String>
+    <String ALIAS="HELP_WINDOWS8_DEVICES">Устройства Windows 8</String>
+    <String ALIAS="HELP_WINDOWS_APPSWITCHBAR">Показать панель переключения между приложениями</String>
+
+  </StringSet>
+</Source>

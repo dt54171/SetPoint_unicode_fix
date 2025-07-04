@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Source>
+	<language xml:lang="ru-ru"/>
+	<ResourceInclude FILE="LRFWiz.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="English"/>
+	<StringSet ID="English">
+		<String ALIAS="WINDOW_CAPTION">Мастер надежного шифрования</String>
+		<String ALIAS="USE_JAPANESE_LOGO">0</String>
+		<String ALIAS="INFO_TITLE">Что происходит</String>
+		<String ALIAS="FINISH_LABEL">Готово</String>
+		<String ALIAS="WIZARD_TECHNOLOGY">Безопасность клавиатуры</String>
+		<String ALIAS="WIZARD_TECHNOLOGY_KP">Подключение цифровой панели</String>
+		<String ALIAS="WIZARD_TECHNOLOGY_SCALE">0.85</String>
+		<String ALIAS="WIZARD_TECHNOLOGY_BOLD">1</String>
+		<String ALIAS="OK_LABEL">ОК</String>
+		<String ALIAS="WAIT_INFO">Чтобы гарантировать, что нажатия клавиш не могут быть обнаружены с помощью какого-либо другого компьютера, необходимо запустить мастер надежного шифрования.\n\nДля этого достаточно выполнить несколько простых действий. Выполнение мастера займет немного времени.\n\nПри этом не следует нажимать клавиши, кроме тех, которые запрошены мастером.</String>
+		<String ALIAS="CLOSELOCK_INFO">Чтобы гарантировать, что нажатия клавиш не могут быть обнаружены с помощью какого-либо другого компьютера, необходимо запустить мастер надежного шифрования.\n\nДля этого достаточно выполнить несколько простых действий. Выполнение мастера займет немного времени.\n\nПри этом не следует нажимать клавиши, кроме тех, которые запрошены мастером.</String>
+		<String ALIAS="WAIT_KEY_INFO">Чтобы гарантировать, что нажатия клавиш не могут быть обнаружены с помощью какого-либо другого компьютера, необходимо запустить мастер надежного шифрования.\n\nДля этого достаточно выполнить несколько простых действий. Выполнение мастера займет немного времени.\n\nПри этом не следует нажимать клавиши, кроме тех, которые запрошены мастером.</String>
+		<String ALIAS="FINISH_INFO">Чтобы гарантировать, что нажатия клавиш не могут быть обнаружены с помощью какого-либо другого компьютера, необходимо запустить мастер надежного шифрования.\n\nДля этого достаточно выполнить несколько простых действий. Выполнение мастера займет немного времени.\n\nПри этом не следует нажимать клавиши, кроме тех, которые запрошены мастером.</String>
+		<String ALIAS="STATIC_HEADER_1OF2">Шаг 1 из 2:</String>
+		<String ALIAS="STATIC_HEADER_2OF2">Шаг 2 из 2:</String>
+		<String ALIAS="STATIC_HEADER_2OF3">Шаг 2 из 3:</String>
+		<String ALIAS="STATIC_HEADER_3OF3">Шаг 3 из 3:</String>
+		<String ALIAS="STATIC_HEADER_LOWBATT">Батарея разряжена</String>
+		<String ALIAS="STATIC_WAIT_HEADER2_ALIAS" SCALE="1.30">К сожалению, уровень заряда батарей цифровой панели слишком низкий для подключения этой панели. Замените батареи и повторите попытку.</String>
+		<String ALIAS="STATIC_WAIT_MAIN_ALIAS" SCALE="1.30">На цифровой панели нажмите кнопку Calc (калькулятор) и удерживайте ее в течение 3 секунд.</String>
+		<String ALIAS="STATIC_CLOSE_MAIN_ALIAS" SCALE="1.30">Нажмите кнопку подключения снизу цифровой панели.</String>
+		<String ALIAS="STATIC_FINISH_MAIN_ALIAS" SCALE="1.30">Цифровая панель теперь надежно подключена. Для выхода из мастера нажмите кнопку &quot;Готово&quot;.</String>
+		<String ALIAS="IDS_LOGO_FILE"></String>
+	</StringSet>
+	<!-- Wait Page -->
+	<Dialog ID="IDD_PAGE_WAIT" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Шаг 1 из 3:</Control>
+		<Control ID="IDC_STATIC_HEADER2" SCALE="1.30">Уровень заряда батарей слишком низок для закрепления клавиатуры за компьютером. Замените батареи и повторите попытку.</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.30">На клавиатуре нажмите левую клавишу &lt;CTRL> + левую клавишу &lt;ALT> + &lt;F12>.</Control>
+	</Dialog>
+	<!-- Close Lock Page -->
+	<Dialog ID="IDD_PAGE_CLOSELOCK" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Шаг 2 из 3:</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.30">Нажмите кнопку соединения снизу клавиатуры.</Control>
+	</Dialog>
+	<!-- Wait Key Page -->
+	<Dialog ID="IDD_PAGE_WAIT_KEY" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Шаг 3 из 3:</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.30">Введите в расположенные ниже поля следующий код.</Control>
+		<Control ID="IDC_STATIC_KEY1" SCALE="1.75" BOLD="1">----</Control>
+		<Control ID="IDC_STATIC_KEY2" SCALE="1.75" BOLD="1">----</Control>
+		<Control ID="IDC_STATIC_KEY3" SCALE="1.75" BOLD="1">----</Control>
+		<Control ID="IDC_STATIC_KEY4" SCALE="1.75" BOLD="1">----</Control>
+		<Control ID="IDC_EDIT_KEY1" SCALE="1.75" BOLD="1">    </Control>
+		<Control ID="IDC_EDIT_KEY2" SCALE="1.75" BOLD="1">    </Control>
+		<Control ID="IDC_EDIT_KEY3" SCALE="1.75" BOLD="1">    </Control>
+		<Control ID="IDC_EDIT_KEY4" SCALE="1.75" BOLD="1">    </Control>
+	</Dialog>
+	<!-- Finished Page -->
+	<Dialog ID="IDD_PAGE_FINISH" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Поздравляем!</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.30">Подключение клавиатуры надежно защищено. Для выхода из мастера нажмите кнопку &quot;Готово&quot;.</Control>
+	</Dialog>
+</Source>

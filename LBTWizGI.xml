@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Source>
+	<language xml:lang="ru-ru"/>
+	<ResourceInclude FILE="LBTWizGI.xmlres"/>
+	<!-- String Sets -->
+	<ActiveStringSet ID="English"/>
+	<StringSet ID="English">
+		<String ALIAS="USE_JAPANESE_LOGO">0</String>
+		<String ALIAS="WINDOW_CAPTION">Мастер связи Bluetooth^®</String>
+		<String ALIAS="BOTTOM_CLOSE_BUTTON">Закрыть</String>
+		<String ALIAS="INFO_TITLE">Что происходит</String>
+		<String ALIAS="FINISH_LABEL">Готово</String>
+		<String ALIAS="FINISH_FOOTER">Нажмите кнопку "Готово" для завершения работы мастера подключения.</String>
+		<String ALIAS="WELCOME_INFO">При работе устройств Bluetooth используются радиоволны. Беспроводной концентратор Bluetooth использует радиоволны, чтобы найти "поддающиеся обнаружению" устройства.\n\nСейчас будет показано, как надежно подключить эти устройства к компьютеру.</String>
+		<String ALIAS="WELCOME_RFID_INFO">Подождите, пока устройство Bluetooth не будет обнаружено и надежно подключено к системе.</String>
+		<String ALIAS="DFU_INFO">Мы постоянно улучшаем продукты, которые вы покупаете. Данный шаг необходим для того, чтобы вы могли использовать новейшие улучшенные и оптимизированные функции, которые мы разработали для вашего устройства.</String>
+    <String ALIAS="DFU_QUERY">Мы постоянно улучшаем продукты, которые вы покупаете. Данный шаг необходим для того, чтобы вы могли использовать новейшие улучшенные и оптимизированные функции, которые мы разработали для вашего устройства.</String>
+    <String ALIAS="MOUSE_BATT_INFO">Беспроводной концентратор Bluetooth сможет обнаружить устройства Bluetooth, если они подключены к питанию и являются "поддающимися обнаружению". При нажатии кнопок Connect устройство становится "поддающимся обнаружению" и доступным для подключения к компьютеру.</String>
+		<String ALIAS="MOUSE_CONFIRM_INFO">Найдена "поддающаяся обнаружению" мышь Bluetooth. Щелкните цепочку, чтобы подтвердить подключение к компьютеру. Если невозможно щелкнуть цепочку, мастер начнет поиск заново.</String>
+		<String ALIAS="MOUSE_DONE_INFO">Если цепочка была успешно закрыта, мышь является подключенной к вашему компьютеру и не может быть обнаружена другими компьютерами или подключена к ним. Никакой другой компьютер не сможет получить команды от вашей мыши.</String>
+		<String ALIAS="KBD_BATT_INFO">Беспроводной концентратор Bluetooth сможет обнаружить устройства Bluetooth, если они подключены к питанию и являются "поддающимися обнаружению". При нажатии кнопок Connect устройство становится "поддающимся обнаружению" и доступным для подключения к компьютеру.</String>
+		<String ALIAS="KBD_CONFIRM_INFO">Найдена "поддающаяся обнаружению" клавиатура Bluetooth. Чтобы обеспечить подключение клавиатуры к компьютеру, наберите на этой клавиатуре значение ключа Passkey и нажмите клавишу Enter. Если не удается ввести значение ключа Passkey, мастер начнет поиск заново. Если во время подключения возникли сложности, проверьте, совпадает ли адрес Bluetooth с адресом на задней панели устройства; если не совпадает, нажмите кнопку "Повторить поиск" для поиска надлежащего устройства. </String>
+		<String ALIAS="KBD_VC_UNPLUG_CONFIRM_INFO">Найдена "поддающаяся обнаружению" клавиатура Bluetooth. Чтобы подключить клавиатуру, наберите на ней значение Passkey и нажмите Enter.   Если не удастся ввести Passkey, мастер начнет поиск заново. </String>
+		<String ALIAS="KBD_DONE_INFO">Клавиатура Bluetooth обнаружена и подключена к системе. \n\nПосле этого другой компьютер не сможет реагировать на нажатие клавиш этой панели.</String>
+		<String ALIAS="NUMPAD_BATT_INFO">Беспроводной концентратор Bluetooth сможет обнаружить устройства Bluetooth, если они подключены к питанию и являются "поддающимися обнаружению". При нажатии кнопок Connect устройство становится "поддающимся обнаружению" и доступным для подключения к компьютеру.</String>
+		<String ALIAS="NUMPAD_CONFIRM_INFO">Найдена "поддающаяся обнаружению"  панель Bluetooth MediaPad. Чтобы обеспечить подключение панели MediaPad к компьютеру, наберите на этой панели MediaPad значение ключа Passkey и нажмите клавишу Enter. Если не удается ввести значение ключа Passkey, мастер начнет поиск заново. Если во время подключения возникли сложности, проверьте, совпадает ли адрес Bluetooth с адресом на задней панели устройства; если не совпадает, нажмите кнопку "Повторить поиск" для поиска надлежащего устройства.</String>
+		<String ALIAS="NUMPAD_VC_UNPLUG_CONFIRM_INFO">Найдена "поддающаяся обнаружению" панель Bluetooth MediaPad. Чтобы подключить панель MediaPad, наберите на ней значение Passkey и нажмите Enter. Если не удастся ввести Passkey, мастер начнет поиск заново. </String>
+		<String ALIAS="NUMPAD_DONE_INFO">Панель MediaPad Bluetooth обнаружена и подключена к системе. \n\nПосле этого другой компьютер не сможет реагировать на нажатие клавиш этой панели.</String>
+		<!-- The Connection Status page's Info pane has 3 texts -->
+		<String ALIAS="CONNECTION_STATUS_INFO">Выберите «Устранение неполадок подключения» для получения дополнительной информации о подключении своих устройств.\n\nДля подключения других устройств Bluetooth (например, сотового телефона) закройте мастер связи Bluetooth и откройте его снова из меню «Пуск» операционной системы Windows.</String>
+		<String ALIAS="CONNECTION_STATUS_CONNECT_OTHER_INFO">Для подключения других устройств Bluetooth (например, сотового телефона) выберите «Подключение устройств» и следуйте инструкциям на экране.\n\n\n\n\n*ПРОБЛЕМЫ С ПОДКЛЮЧЕНИЕМ?*\n\nВыберите «Устранение неполадок подключения» и следуйте инструкциям на экране.</String>
+		<String ALIAS="CONNECTION_STATUS_USE_INTEGRATED_RADIO_INFO">Для подсоединения мыши и клавиатуры к другим устройствам Bluetooth, подсоединенным к вашему компьютеру, выберите «Использовать установленное оборудование» и следуйте инструкциям, появляющимся на экране.</String>
+		<!-- The Connection Status page's Status button can be labeled 2 things -->
+		<String ALIAS="CONNECTION_STATUS_BUTTON_CONNECT_OTHER">Подключение устройств</String>
+		<String ALIAS="CONNECTION_STATUS_BUTTON_USE_INTEGRATED_RADIO">Использовать установленное оборудование</String>
+		<String ALIAS="CHECK_CONN_INFO">Подождите, пока устройство Bluetooth не будет обнаружено и надежно подключено к системе.</String>
+		<String ALIAS="CONNECTED_INFO">Ваше устройство Bluetooth обнаружено компьютером. В настоящий момент устройство является подключенным.</String>
+		<String ALIAS="DISCONNECTED_INFO">Устройство отключено и может быть передано другой системе или быть заново подключено к данной системе.</String>
+		<String ALIAS="SEARCH_AGAIN_GAUGE_CAPTION">Проводится поиск - подождите...</String>
+		<String ALIAS="MOUSE_MAIN_HEADER">Найдена мышь Bluetooth с адресом Bluetooth %s.</String>
+		<String ALIAS="KEYBOARD_MAIN_HEADER">Найдена клавиатура Bluetooth с адресом Bluetooth %s.</String>
+		<String ALIAS="NUMPAD_MAIN_HEADER">Найдена панель MediaPad Bluetooth с адресом Bluetooth %s.</String>
+		<String ALIAS="PASSKEY_CONNECT_FOOTER">Ключ Passkey обнаружен. Подождите, пока устройство будет подключено.</String>
+		<String ALIAS="MOUSE_CONNECT_FOOTER">Мышь обнаружена. Подождите, пока устройство будет подключено.</String>
+		<String ALIAS="MOUSE_MAIN4_ALIAS">Подождите, пока мышь будет обнаружена.</String>
+		<String ALIAS="KEYBOARD_MAIN4_ALIAS">Подождите, пока клавиатура будет обнаружена.</String>
+		<String ALIAS="NUMPAD_MAIN4_ALIAS">Подождите, пока панель MediaPad будет обнаружена.</String>
+		<!-- Device names shown in Connection Status page, alias is DEVICE_XXXX, where XXXX is PID -->
+		<String ALIAS="DEVICE_B001">MX 900 Mouse for Bluetooth</String>
+		<String ALIAS="DEVICE_B002">V270 Bluetooth Mouse for Notebooks</String>
+		<String ALIAS="DEVICE_B003">MX 1000 Mouse for Bluetooth</String>
+		<String ALIAS="DEVICE_B004">Dell BT/XPS M2010 Mouse</String>
+		<String ALIAS="DEVICE_B007">MX Revolution Bluetooth</String>
+		<String ALIAS="DEVICE_B008">V470 Bluetooth enabled mouse</String>
+		<String ALIAS="DEVICE_B301">Cordless Keyboard for Bluetooth</String>
+		<String ALIAS="DEVICE_B302">Cordless Keyboard for Bluetooth</String>
+		<String ALIAS="DEVICE_B303">diNovo Keyboard</String>
+		<String ALIAS="DEVICE_B304">diNovo Keyboard</String>
+		<String ALIAS="DEVICE_B305">MX 5000 Keyboard</String>
+		<String ALIAS="DEVICE_B306">MX 5000 Keyboard</String>
+		<String ALIAS="DEVICE_B307">diNovo Keyboard</String>
+		<String ALIAS="DEVICE_B308">Dell BT keyboard</String>
+		<String ALIAS="DEVICE_B309">diNovo Edge keyboard</String>
+		<String ALIAS="DEVICE_B30B">MX 5500 Keyboard</String>
+		<String ALIAS="DEVICE_B3E1">Цифровая панель</String>
+		<String ALIAS="DEVICE_B3E2">Цифровая панель</String>
+		<String ALIAS="DEVICE_B3E3">Цифровая панель</String>
+		<!-- Inexact device names -->
+		<String ALIAS="DEVICE_B0">Мышь для Bluetooth</String>
+		<String ALIAS="DEVICE_B1">Мышь для Bluetooth</String>
+		<String ALIAS="DEVICE_B3">Клавиатура для Bluetooth</String>
+		<String ALIAS="DEVICE_C71C">Миниприемник USB Bluetooth (%S)</String>
+		<String ALIAS="DEVICE_C70C">Миниприемник USB Bluetooth (%S)</String>
+		<String ALIAS="DEVICE_C70A">Миниприемник USB Bluetooth (%S)</String>
+		<String ALIAS="DEVICE_C7">Концентратор Bluetooth (%S)</String>
+		<String ALIAS="DEVICE_FFFF">Концентратор Bluetooth (можно отключить)</String>
+		<String ALIAS="DEVICE_UNKNOWN">устройство для Bluetooth</String>
+		<!-- Picture files for battery pages, alias is e.g. BATT_MOUSE_XXXX, where XXXX is PID -->
+		<String ALIAS="BATT_MOUSE_C71C">MX Revolution Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C71C">Adhil Keyboard.bmp</String>
+		<String ALIAS="BATT_KBD_C714">Graphite Keyboard.bmp</String>
+		<String ALIAS="BATT_MOUSE_C719">Dell Smurf Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C719">Dell Smurf Keyboard.bmp</String>
+		<String ALIAS="BATT_MOUSE_C70A">MX1000 Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C70A">Hera Keyboard.bmp</String>
+		<String ALIAS="BATT_MOUSE_C70C">MX1000 Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C70C">diNovo Longtom Keyboard.bmp</String>
+		<String ALIAS="BATT_PAD_C70C">diNovo Longtom Numpad.bmp</String>
+		<String ALIAS="BATT_MOUSE_C708">diNovo Refresh Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C708">diNovo Refresh Keyboard.bmp</String>
+		<String ALIAS="BATT_PAD_C708">diNovo Refresh Numpad.bmp</String>
+		<String ALIAS="BATT_MOUSE_C705">diNovo Refresh Mouse.bmp</String>
+		<String ALIAS="BATT_MOUSE_C704">diNovo Refresh Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C704">diNovo Refresh Keyboard.bmp</String>
+		<String ALIAS="BATT_PAD_C704">diNovo Refresh Numpad.bmp</String>
+		<String ALIAS="BATT_MOUSE_C703">diNovo Refresh Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_C703">Hilda Keyboard.bmp</String>
+		<String ALIAS="BATT_MOUSE_UNKNOWN">Default Mouse.bmp</String>
+		<String ALIAS="BATT_KBD_UNKNOWN">Default Keyboard.bmp</String>
+		<String ALIAS="BATT_PAD_UNKNOWN">diNovo Longtom Numpad.bmp</String>
+		<!-- RFID WElcome Page Progress Step Messages -->
+		<String ALIAS="RFID_MESSAGE_0"/>
+		<String ALIAS="RFID_MESSAGE_1">Поиск приемника</String>
+		<String ALIAS="RFID_MESSAGE_2">Получение информации о состоянии приемника</String>
+		<String ALIAS="RFID_MESSAGE_3">Инициализация интерфейса стека Bluetooth</String>
+		<String ALIAS="RFID_MESSAGE_4">Подключение концентратора Bluetooth</String>
+		<String ALIAS="RFID_MESSAGE_5">Расположение Bluetooth радио</String>
+		<String ALIAS="RFID_MESSAGE_6">Удалить подсоединение к мыши %s</String>
+		<String ALIAS="RFID_MESSAGE_7">Поиск мыши %s</String>
+		<String ALIAS="RFID_MESSAGE_8">Подсоединение мыши %s к Bluetooth радио</String>
+		<String ALIAS="RFID_MESSAGE_9">Удалить подсоединение к клавиатуре %s</String>
+		<String ALIAS="RFID_MESSAGE_10">Поиск клавиатуры %s</String>
+		<String ALIAS="RFID_MESSAGE_11">Подсоединение клавиатуры %s к Bluetooth радио</String>
+		<String ALIAS="RFID_MESSAGE_12">Удалить подсоединение к панели MediaPad %s</String>
+		<String ALIAS="RFID_MESSAGE_13">Поиск панели MediaPad %s</String>
+		<String ALIAS="RFID_MESSAGE_14">Подсоединение панели MediaPad %s к Bluetooth радио</String>
+		<String ALIAS="RFID_MESSAGE_15"/>
+	</StringSet>
+	<!-- Checking Connection Page -->
+	<Dialog ID="IDD_PAGE_CONNECT_CHECK" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Проверка подключения устройства</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Мастер проверяет подключение Bluetooth.  Подождите....</Control>
+	</Dialog>
+	<!-- Connected Page -->
+	<Dialog ID="IDD_PAGE_CONNECTED" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Устройство подключено</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Устройство Bluetooth обнаружено и подключено к системе.\n\nЩелкните "Сохранить подключение", если устройство должно оставаться подключенным, или "Отключить", чтобы отключить устройство.</Control>
+		<Control ID="IDC_BUTTON_DISCONNECT">Отключить</Control>
+		<Control ID="IDC_BUTTON_CANCEL">Сохранить подключение</Control>
+	</Dialog>
+	<!-- Disconnected Page -->
+	<Dialog ID="IDD_PAGE_DISCONNECTED" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Устройство успешно отключено</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Для повторного подключения устройства перейдите в меню «Пуск» и выберите последовательно команды «Все программы», «Мышь и клавиатура», «Мастер связи Bluetooth». Затем воспользуйтесь ссылкой «Щелкните здесь для подключения», расположенной рядом с названием отключенного устройства Bluetooth.\n\nКроме того, можно нажать кнопку подключения на нижней части данного устройства и на беспроводном концентраторе Bluetooth, подключенном к ПК.</Control>
+		<Control ID="IDC_BUTTON_FINISH">Готово</Control>
+	</Dialog>
+	<!-- Device Connection Status Page -->
+	<Dialog ID="IDD_PAGE_CONNECT_STATUS" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Состояние подключения устройства</Control>
+		<Control ID="IDC_STATIC_LOGI_CONNECTED" SCALE="1.25" BOLD="1">Следующие устройства Bluetooth подсоединены:</Control>
+		<Control ID="IDC_STATIC_LOGI_DISCONNECTED" SCALE="1.25" BOLD="1">Следующие устройства Bluetooth не подсоединены:</Control>
+		<Control ID="IDC_STATIC_DISCONNECTED_MOUSE">Мышь</Control>
+		<Control ID="IDC_STATIC_DISCONNECTED_KEYBOARD">Клавиатура</Control>
+		<Control ID="IDC_STATIC_DISCONNECTED_NUMPAD">Цифровая панель</Control>
+		<Control ID="IDC_HL_CONNECTMOUSE">Щелкните здесь для подключения</Control>
+		<Control ID="IDC_HL_CONNECTKBD">Щелкните здесь для подключения</Control>
+		<Control ID="IDC_HL_CONNECTNUMPAD">Щелкните здесь для подключения</Control>
+		<Control ID="IDC_BUTTON_TROUBLESHOOTING">Устранение неполадок подключения</Control>
+		<Control ID="IDC_BUTTON_CLOSE">Закрыть</Control>
+	</Dialog>
+	<!-- Welcome Page -->
+	<Dialog ID="IDD_PAGE_WELCOME" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Добро пожаловать!</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Bluetooth представляет собой передовую беспроводную технологию с защитой от помех и повышенной безопасностью данных.\n\nСейчас ваши устройства будут перезапущены и начнут функционировать.</Control>
+		<Control ID="IDC_STATIC_2_MAIN" SCALE="1.25" BOLD="1">Теперь следует перезапустить устройства, чтобы включить эти функции.</Control>
+		<Control ID="IDC_STATIC_3_MAIN" SCALE="1.25" BOLD="1">Производится перезапуск ваших устройств, чтобы они могли работать со встроенным решением Bluetooth. По окончании работы мастера можно отсоединить концентратор Bluetooth.</Control>
+		<Control ID="IDC_STATIC_INFO_MAIN" SCALE="1.25">Во время выполнения мастера подключения могут появляться различные некоторые окна. Не обращайте на них внимания и дождитесь, чтобы мастер запросил вас о каких-либо действиях.</Control>
+		<Control ID="IDC_STATIC_PLEASE_WAIT" SCALE="1.75" BOLD="1">Подождите....</Control>
+	</Dialog>
+	<!-- Welcome RFID Page -->
+	<Dialog ID="IDD_PAGE_WELCOME_RFID" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Проверка подключения устройства</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Теперь SetPoint подготавливает ваш USB-передатчик к работе в режиме Bluetooth, что позволит вам подключать другие устройства Bluetooth.</Control>
+		<Control ID="IDC_STATIC_NO_ACTION" SCALE="1.25" ITALIC="1">На данном этапе от вас не требуется никакого участия в процессе.</Control>
+	</Dialog>
+  <!-- DFU Query Page -->
+  <Dialog ID="IDD_PAGE_DFU_QUERY" WIDTH="483" HEIGHT="367">
+    <Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Важное обновление микропрограммы</Control>
+    <Control ID="IDC_STATIC_MAIN" SCALE="1.25">SetPoint обновит микропрограммное обеспечение вашего USB-передатчика. Это обновление рекомендуется выполнить для обеспечения оптимальной работы устройства.</Control>
+    <Control ID="IDC_STATIC_CURRENT_LABEL" SCALE="1.25">Текущая версия микропрограммы:</Control>
+    <Control ID="IDC_STATIC_NEW_LABEL" SCALE="1.25">Новая версия микропрограммы:</Control>
+    <Control ID="IDC_STATIC_CURRENT_VERSION" SCALE="1.25">x.xx.xxx</Control>
+    <Control ID="IDC_STATIC_NEW_VERSION" SCALE="1.25">y.yy.yyy</Control>
+    <Control ID="IDC_BUTTON_NEXT">Продолжить</Control>
+    <Control ID="IDC_BUTTON_SKIP">Пропустить</Control>
+    <Control ID="IDC_CHECK_SKIP">Больше не задавать этот вопрос</Control>
+  </Dialog>
+  <!-- DFU Page -->
+	<Dialog ID="IDD_PAGE_DFU" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Обновление микропрограммного обеспечения</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">SetPoint обновляет микропрограммное обеспечение вашего USB-передатчика.</Control>
+		<Control ID="IDC_STATIC_CURRENT_LABEL" SCALE="1.25">Текущая версия микропрограммы:</Control>
+		<Control ID="IDC_STATIC_NEW_LABEL" SCALE="1.25">Новая версия микропрограммы:</Control>
+		<Control ID="IDC_STATIC_CURRENT_VERSION" SCALE="1.25">x.xx.xxx</Control>
+		<Control ID="IDC_STATIC_NEW_VERSION" SCALE="1.25">y.yy.yyy</Control>
+		<Control ID="IDC_STATIC_WAIT_FOR_UPDATE" SCALE="1.25">Ваша мышь и клавиатура будут работать, как только закончится процесс обновления.</Control>
+		<Control ID="IDC_STATIC_PROGRESS_MESSAGE" SCALE="1.25" ITALIC="1">Выполняется</Control>
+		<Control ID="IDC_STATIC_IMPORTANT" SCALE="1.25" BOLD="1">ВНИМАНИЕ!</Control>
+		<Control ID="IDC_STATIC_DONT_UNPLUG" SCALE="1.25" ITALIC="1">Не отключайте передатчик от электропитания, не выключайте и не переводите в спящий или ждущий режим ваш компьютер, пока идет процесс обновления микропрограммного обеспечения!</Control>
+	</Dialog>
+	<!-- Mouse Battery Page -->
+	<Dialog ID="IDD_PAGE_MOUSE_BATT" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Перезапуск мыши</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Убедитесь, что устройство включено и на него подается питание.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">Нажмите кнопку Connect/Reset снизу мыши.</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Нажмите кнопку Connect на беспроводном концентраторе Bluetooth, подключенном к вашему ПК.</Control>
+		<Control ID="IDC_STATIC_MAIN4" SCALE="1.25" BOLD="1"/>
+		<Control ID="IDC_STATIC_DETECTED" BOLD="1">Мышь обнаружена. Подождите, пока устройство будет подключено.</Control>
+		<Control ID="IDC_STATIC_PLEASE_WAIT" SCALE="1.75" BOLD="1">Подождите....</Control>
+		<Control ID="IDC_CHECK_SKIPMOUSE">Больше не подключать эту мышь</Control>
+		<Control ID="IDC_BUTTON_SKIP">Пропустить</Control>
+	</Dialog>
+	<!-- Mouse Confirm Page -->
+	<Dialog ID="IDD_PAGE_MOUSE_CONFIRM" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Подтверждение подключения мыши</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Найдена мышь Bluetooth с адресом Bluetooth %s.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25" BOLD="1">Воспользуйтесь мышью, чтобы щелкнуть цепочку.</Control>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">Если невозможно щелкнуть цепочку при помощи мыши, немного подождите и мастер поможет вам решить эту проблему.</Control>
+		<Control ID="IDC_BTHADDR_STATIC" SCALE="1.25" BOLD="1">Адрес Bluetooth</Control>
+		<Control ID="IDC_BTADDR_VAL_STATIC" SCALE="1.25" BOLD="1">00:00:00:00:00:00</Control>
+		<Control ID="IDC_BUTTON_SEARCH_AGAIN">Повторить поиск</Control>
+	</Dialog>
+	<!-- Mouse Done Page -->
+	<Dialog ID="IDD_PAGE_MOUSE_DONE" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Подключение мыши подтверждено</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Поздравляем! Ваша мышь Bluetooth настроена.</Control>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">Нажмите кнопку «Следующее» для подключения следующего Bluetooth-устройства.</Control>
+		<Control ID="IDC_BUTTON_NEXT">Следующее</Control>
+	</Dialog>
+	<!-- Keyboard Battery Page -->
+	<Dialog ID="IDD_PAGE_KBD_BATT" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Перезапуск клавиатуры</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Убедитесь, что устройство включено и на него подается питание.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">Нажмите кнопку Connect снизу клавиатуры.</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Нажмите кнопку Connect на беспроводном концентраторе Bluetooth, подключенном к вашему ПК.</Control>
+		<Control ID="IDC_STATIC_MAIN4" SCALE="1.25" BOLD="1"/>
+		<Control ID="IDC_CHECK_SKIPKEYBOARD">Больше не подключать эту клавиатуру</Control>
+		<Control ID="IDC_BUTTON_SKIP">Пропустить</Control>
+	</Dialog>
+	<!-- Keyboard Confirm Page -->
+	<Dialog ID="IDD_PAGE_KBD_CONFIRM" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Подтверждение подключения клавиатуры</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Найдена клавиатура Bluetooth с адресом Bluetooth %s.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">Используя свою клавиатуру, введите значение Passkey:</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Затем нажмите на клавиатуре клавишу Enter.</Control>
+		<Control ID="IDC_STATIC_PASSKEY" SCALE="1.50" BOLD="1">Passkey:</Control>
+		<Control ID="IDC_STATIC_PASSKEY_SAMPLE" SCALE="1.75" BOLD="0">AB1298CG</Control>
+		<Control ID="IDC_EDIT_PASSKEY" SCALE="1.75" BOLD="1"/>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">Если ключ Passkey не обнаружен или является неправильным, мастер поможет решить эту проблему.</Control>
+		<Control ID="IDC_BUTTON_SEARCH_AGAIN">Повторить поиск</Control>
+		<Control ID="IDC_STATIC_PLEASE_WAIT" SCALE="1.75" BOLD="1">Подождите....</Control>
+	</Dialog>
+	<!-- Keyboard Done Page -->
+	<Dialog ID="IDD_PAGE_KBD_DONE" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Подключение клавиатуры подтверждено</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Поздравляем! Ваша клавиатура Bluetooth настроена.</Control>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">Нажмите кнопку «Следующее» для подключения следующего Bluetooth-устройства.</Control>
+		<Control ID="IDC_BUTTON_NEXT">Следующее</Control>
+	</Dialog>
+	<!-- MediaPadBattery Page -->
+	<Dialog ID="IDD_PAGE_NUMPAD_BATT" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Перезапуск панели MediaPad</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Проверьте уровень заряда батарей.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">Нажмите кнопку Connect снизу панели MediaPad.</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Нажмите кнопку Connect на беспроводном концентраторе Bluetooth, подключенном к вашему ПК.</Control>
+		<Control ID="IDC_STATIC_MAIN4" SCALE="1.25" BOLD="1"/>
+		<Control ID="IDC_CHECK_SKIPNUMPAD">Больше не подключать эту панель MediaPad</Control>
+		<Control ID="IDC_BUTTON_SKIP">Пропустить</Control>
+	</Dialog>
+	<!-- MediaPad Confirm Page -->
+	<Dialog ID="IDD_PAGE_NUMPAD_CONFIRM" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Подтверждение подключения MediaPad</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Найдена панель MediaPad Bluetooth с адресом Bluetooth %s.</Control>
+		<Control ID="IDC_STATIC_MAIN2" SCALE="1.25">Когда на экране панели MediaPad появится "Passkey", воспользуйтесь ею, чтобы ввести следующее значение:</Control>
+		<Control ID="IDC_STATIC_MAIN3" SCALE="1.25">Затем нажмите на панели MediaPad клавишу Enter.</Control>
+		<Control ID="IDC_STATIC_PASSKEY" SCALE="1.50" BOLD="1">Passkey:</Control>
+		<Control ID="IDC_STATIC_PASSKEY_SAMPLE" SCALE="1.75" BOLD="0">AB1298CG</Control>
+		<Control ID="IDC_EDIT_PASSKEY" SCALE="1.75" BOLD="1"/>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">Если ключ Passkey не обнаружен или является неправильным, мастер поможет решить эту проблему.</Control>
+		<Control ID="IDC_BUTTON_SEARCH_AGAIN">Повторить поиск</Control>
+		<Control ID="IDC_STATIC_PLEASE_WAIT" SCALE="1.75" BOLD="1">Подождите....</Control>
+	</Dialog>
+	<!-- MediaPad Done Page -->
+	<Dialog ID="IDD_PAGE_NUMPAD_DONE" WIDTH="483" HEIGHT="367">
+		<Control ID="IDC_STATIC_HEADER" SCALE="1.75" BOLD="1">Подключение панели MediaPad подтверждено</Control>
+		<Control ID="IDC_STATIC_MAIN" SCALE="1.25">Поздравляем! Ваша панель MediaPad Bluetooth настроена.</Control>
+		<Control ID="IDC_STATIC_FOOTER" SCALE="1.25">Нажмите кнопку "Готово".</Control>
+		<Control ID="IDC_BUTTON_NEXT">Готово</Control>
+	</Dialog>
+</Source>

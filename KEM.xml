@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Source>
+  <language xml:lang="ru-ru"/>
+  <ResourceInclude FILE="KEM.xmlres"/>
+  <!-- BatteryStatusInfoSet -->
+  <!-- TEST-Set the ICONINDEX according to this table:
+		IDI_BATTERY_LEVEL_LOW					0
+		IDI_BATTERY_LEVEL_FAIR					1
+		IDI_BATTERY_LEVEL_GOOD					2
+		IDI_BATTERY_LEVEL_FULL					3
+		IDI_BATTERY_LEVEL_CRITICAL				4
+
+  	   -->
+  <BatteryStatusInfoSet>
+    <BatteryStatusInfo NumLevels="2">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="3">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="1"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="4">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="0"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="4" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="5">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="0"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_FAIR" IconIndex="1"/>
+      <BatteryStatus Status="4" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="5" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="6">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="0"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_FAIR" IconIndex="1"/>
+      <BatteryStatus Status="4" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="5" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="6" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+    <BatteryStatusInfo NumLevels="7">
+      <BatteryStatus Status="1" StatusString="IDS_BATT_LEVEL_CRITICAL" IconIndex="4"/>
+      <BatteryStatus Status="2" StatusString="IDS_BATT_LEVEL_LOW" IconIndex="0"/>
+      <BatteryStatus Status="3" StatusString="IDS_BATT_LEVEL_FAIR" IconIndex="1"/>
+      <BatteryStatus Status="4" StatusString="IDS_BATT_LEVEL_FAIR" IconIndex="1"/>
+      <BatteryStatus Status="5" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="6" StatusString="IDS_BATT_LEVEL_GOOD" IconIndex="2"/>
+      <BatteryStatus Status="7" StatusString="IDS_BATT_LEVEL_FULL" IconIndex="3"/>
+    </BatteryStatusInfo>
+  </BatteryStatusInfoSet>
+  <!-- String Sets -->
+  <ActiveStringSet ID="Main"/>
+  <StringSet ID="Main">
+    <String ALIAS="IDS_COMPANY">Logitech</String>
+    <String ALIAS="IDS_PRODUCT">SetPoint</String>
+    <String ALIAS="IDS_DEVICE_MOUSE">Мышь</String>
+    <String ALIAS="IDS_DEVICE_KEYBOARD">Клавиатура</String>
+    <String ALIAS="IDS_DEVICE_MEDIAPAD">Цифровая панель</String>
+    <String ALIAS="IDS_DEVICE_REMOTE">Пульт дистанционного управления</String>
+    <String ALIAS="IDS_DEVICE_NUMPAD">Цифровая панель</String>
+    <!-- Tray Icon Menu -->
+    <String ALIAS="IDS_TRAYICON_SETTINGS">Настройка мыши и клавиатуры</String>
+    <String ALIAS="IDS_TRAYICON_QUICKTOUR">QuickTour</String>
+    <String ALIAS="IDS_TRAYICON_HELPCENTER">Справочный центр</String>
+    <String ALIAS="IDS_TRAYICON_BLUETOOTH_PLACES">Мое окружение Bluetooth</String>
+    <String ALIAS="IDS_TRAYICON_BLUETOOTH_RESOURCES">Веб-узел Logitech, посвященный Bluetooth</String>
+    <String ALIAS="IDS_TRAYICON_MEDIADESKTOP">Media Desktop</String>
+    <String ALIAS="IDS_TRAYICON_MEDIALIFE">MediaLife</String>
+    <String ALIAS="IDS_TRAYICON_EXIT">Выход</String>
+    <String ALIAS="IDS_TRAYICON_TOOLTIP">Мышь и клавиатура Logitech</String>
+    <String ALIAS="IDS_TRAYICON_CONNECTED_TOOLTIP">Подключено устройство Logitech: %s</String>
+    <String ALIAS="IDS_TRAYICON_CONNECT_TOOLTIP">Теперь нажмите кнопку Connect/Reset на нижней поверхности устройства Logitech (%s), чтобы устройство осталось подключенным</String>
+    <String ALIAS="IDS_ONE_NEW_EMAIL_MESSAGE">1 новое письмо</String>
+    <String ALIAS="IDS_ONE_NEW_IM_MESSAGE">1 новое сообщение IM</String>
+    <String ALIAS="IDS_ONE_NEW_MESSAGE">1 новое сообщение</String>
+    <!-- OEM Configuration Items -->
+    <String ALIAS="IDS_BLUETOOTH_RESOURCES_URL"/>
+    <String ALIAS="IDS_BLUETOOTH_RESOURCES_URL_2">http://www.logitech.com/bluetooth</String>
+    <!-- LCD Media Player States -->
+    <String ALIAS="IDS_MEDIA_STATE_PLAYING">Воспроизв.</String>
+    <String ALIAS="IDS_MEDIA_STATE_PAUSED">Пауза</String>
+    <String ALIAS="IDS_MEDIA_STATE_READY">Готово</String>
+    <String ALIAS="IDS_MEDIA_STATE_STOPPED">Остановл.</String>
+    <!-- Battery Status Message and ToolTips -->
+    <String ALIAS="IDS_MOUSE_BATTERY_LEVEL_PREFIX">Батарейки вашей мыши:</String>
+    <String ALIAS="IDS_KEYBOARD_BATTERY_LEVEL_PREFIX">Батарейки вашей клавиатуры:</String>
+    <String ALIAS="IDS_MEDIAPAD_BATTERY_LEVEL_PREFIX">Батарейки устройства MediaPad:</String>
+    <String ALIAS="IDS_REMOTE_BATTERY_LEVEL_PREFIX">Батарейки цифровой панели:</String>
+    <String ALIAS="IDS_BATT_CHARGING">заряжается</String>
+    <String ALIAS="IDS_BATT_CHARGE_COMPLETE">полная зарядка</String>
+    <String ALIAS="IDS_BATT_LEVEL_UNKNOWN">неизвестен</String>
+    <String ALIAS="IDS_BATT_LEVEL_GOOD">высокий</String>
+    <String ALIAS="IDS_BATT_LEVEL_LOW">низкий</String>
+    <String ALIAS="IDS_BATT_LEVEL_FULL">полный</String>
+    <String ALIAS="IDS_BATT_LEVEL_FAIR">действительно</String>
+    <String ALIAS="IDS_BATT_LEVEL_CRITICAL">важно</String>
+    <String ALIAS="IDS_BATT_STATUS_MSG">Устройство %1: батарейки %2</String>
+    <String ALIAS="IDS_BATT_RECHARGE_MOUSE">Перезарядите мышь..</String>
+    <String ALIAS="IDS_BATT_RECHARGE_KEYBOARD">Перезарядите клавиатуру.</String>
+    <String ALIAS="IDS_BATT_REPLACE">Батарейки необходимо заменить.</String>
+    <String ALIAS="IDS_MULTIPLE_DEVICE_LOWBATTERY_PREFIX">Практически полностью разряжены батарейки следующих устройств:\n</String>
+    <String ALIAS="IDS_SINGLE_DEVICE_LOWBATTERY_PREFIX">Практически полностью разряжены батарейки следующего устройства:</String>
+    <String ALIAS="IDS_BATT_CHARGE_ERROR">Ошибка при зарядке.</String>
+    <String ALIAS="IDS_BATT_BATTERY">батарея</String>
+    <String ALIAS="IDS_BATTMILEAGEIN_DAYS">Дней</String>
+    <String ALIAS="IDS_BATTMILEAGEIN_MONTHS">Месяцев</String>
+    <String ALIAS="IDS_BATTMILEAGEIN_WEEKS">Недель</String>
+    <String ALIAS="IDS_BATTMILEAGEIN_PERCENT">Процентов</String>
+    <String ALIAS="IDS_BATTMILEAGE_REMAIN_PREFIX">Уровень заряда батареи:</String>
+    <!-- Keyboard Lock Status Message and ToolTips -->
+    <String ALIAS="IDS_LOCK_CAPS">CAPS Lock</String>
+    <String ALIAS="IDS_LOCK_SCROLL">Scroll Lock</String>
+    <String ALIAS="IDS_LOCK_NUM">Num Lock</String>
+    <String ALIAS="IDS_LOCK_ON">вкл</String>
+    <String ALIAS="IDS_LOCK_OFF">выкл</String>
+    <!-- Device Connect Status Message and ToolTips -->
+    <String ALIAS="IDS_DEVICE_CONNECT_STATUS">Чтобы подключить устройство, нажмите кнопку кнопку подключения и сброса ("Connect/Reset") на его нижней поверхности</String>
+    <String ALIAS="IDS_DEVICE_CONNECT_STATUS_QUAD">Для подключения устройства выключите, а затем повторно включите его.</String>
+
+    <String ALIAS="IDS_DEVICE_CONNECT_STATUS_CAPTION">Состояние подключения</String>
+    <String ALIAS="OEM_CONFIGURE">0</String>
+    <String ALIAS="IMAGES_DIR">Images\</String>
+    <String ALIAS="IDS_CURSORSETTING_CHANGED">Невозможно применить внесенные вами для мыши изменения, поскольку в процессе внесения изменений использовалось несколько устройств.\nПовторите попытку, используя только ту мышь, для которой хотите внести изменения.</String>
+    <String ALIAS="IDS_OSD_NOAPPSRUNNING">Нет приложений для переключения</String>
+    <String ALIAS="IDS_CHROME_EXTENSION_DISABLED_TOOLTIP">Щелкните здесь, чтобы включить плавную прокрутку для мыши и сенсорной панели Logitech в браузере Google Chrome.</String>
+    <String ALIAS="IDS_CHROME_EXTENSION_DISABLED_TOOLTIP_CAPTION">Плавная прокрутка отключена</String>
+	<String ALIAS="IDS_FIREFOX_EXTENSION_DISABLED_TOOLTIP">Щелкните здесь, чтобы включить плавную прокрутку для мыши и сенсорной панели Logitech в браузере Mozilla Firefox.</String>
+	<String ALIAS="IDS_FIREFOX_EXTENSION_DISABLED_TOOLTIP_CAPTION">Плавная прокрутка отключена</String>
+    <String ALIAS="IDS_TAIHO_LINK">Загрузить ПО Logitech Options</String>
+    <String ALIAS="IDS_TAIHO_LAUNCH">Запустить ПО Logitech Options</String>
+    <String ALIAS="IDS_TAIHO_URL">http://www.logitech.com/logitech-options</String>
+  </StringSet>
+
+  <Dialog ID="IDD_RECOMMEND_SKYPE" WIDTH="460" HEIGHT="400">
+    <Control ID="IDC_STATIC_KNOW_SKYPE" FONT="trebuchet ms" SCALE="2.0" BOLD="1">Знаете ли вы Skype?</Control>
+    <Control ID="IDC_STATIC_SKYPE_1" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Программа Logitech SetPoint обнаружила, что на вашем компьютере отсутствует приложение Skype 2.0 (или более поздняя версия).</Control>
+    <Control ID="IDC_STATIC_SKYPE_2" FONT="trebuchet ms" SCALE="1.0" BOLD="1">Для использования EasyCall(TM) Desktop необходимо установить Skype 2.0 (или более позднюю версию).</Control>
+    <Control ID="IDC_STATIC_SKYPE_3" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Нажмите кнопку «Перейти на веб-узел Skype» и выберите язык. Затем нажмите кнопку Download (Загрузка) и следуйте инструкциям, появляющимся на экране. После установки приложения вы готовы позвонить друзьям и близким через EasyCall(TM).</Control>
+    <Control ID="IDC_BUTTON_GOTOWEB">Перейти на веб-узел Skype</Control>
+    <Control ID="IDC_BUTTON_HELP">Справка</Control>
+    <Control ID="IDC_BUTTON_CANCEL">Отмена</Control>
+  </Dialog>
+  <Dialog ID="IDD_RECOMMEND_YAHAIM" WIDTH="500" HEIGHT="400">
+    <Control ID="IDC_STATIC_WELCOME" FONT="trebuchet ms" SCALE="1.8" BOLD="1">Добро пожаловать в мир интернет-связи!</Control>
+    <Control ID="IDC_STATIC_1" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Программа Logitech SetPoint обнаружила, что на вашем компьютере отсутствует следующее приложение (или версия).</Control>
+    <Control ID="IDC_STATIC_2" FONT="trebuchet ms" SCALE="1.0" BOLD="1">Для использования EasyCall(TM) Desktop необходимо установить соответствующее приложение.</Control>
+    <Control ID="IDC_STATIC_3" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Щелкните эмблему приложения, чтобы перейти на соответствующую веб-страницу. Если вы не гражданин США, в нижней части страницы выберите название своей страны и следуйте инструкциям, появляющимся на экране. После установки приложения вы готовы позвонить друзьям и близким через EasyCall(TM).</Control>
+    <Control ID="IDC_YAHOO_VER" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Версия 7.5 (или более поздняя)</Control>
+    <Control ID="IDC_AIM_VER" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Версия 1.2 (или более поздняя)</Control>
+    <Control ID="IDC_BUTTON_HELP">Справка</Control>
+    <Control ID="IDOK">ОК</Control>
+  </Dialog>
+  <Dialog ID="IDD_DIALOG_PCPS3SWITCH" WIDTH="460" HEIGHT="262">
+    <Control ID="IDC_STATIC_PCPS3SWITCH_TITLE" FONT="trebuchet ms" SCALE="1.8" BOLD="1">Неправильный режим клавиатуры</Control>
+    <Control ID="IDC_STATIC_PCPS3SWITCH_MSG" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Программой Logitech SetPoint обнаружено, что для вашей клавиатуры установлен режим PLAYSTATION3. Переключите свою клавиатуру в режим «ПК», чтобы она заработала правильно. Переключатель расположен под крышкой батарейного отсека.</Control>
+    <Control ID="IDC_CHECK_PCPS3_DONTSHOW" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Больше этот вопрос не задавать.</Control>
+    <Control ID="IDOK">ОК</Control>
+  </Dialog>
+  <Dialog ID="IDD_DIALOG_TAIHO" WIDTH="460" HEIGHT="262">
+    <Control ID="IDC_STATIC_TAIHOMSG_TITLE" FONT="trebuchet ms" SCALE="1.8" BOLD="1">Доступно новое программное обеспечение</Control>
+    <Control ID="IDC_STATIC_TAIHOMSG_MSG" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Программное обеспечение Logitech SetPoint поддерживает не все устройства Logitech, подключенные к вашему ПК. Для настройки параметров этих устройств используйте приложение Logitech Options.</Control>
+    <Control ID="IDC_CHECK_TAIHOMSG_DONTSHOW" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Больше не показывать это сообщение</Control>
+    <Control ID="IDOK">OK</Control>
+  </Dialog>
+
+  <Dialog ID="IDD_DIALOG_DEVICEINITIALIZING" WIDTH="350" HEIGHT="150">
+    <Control ID="IDC_STATIC_DEVICEENUMERATING_MSG" FONT="trebuchet ms" SCALE="1.0" BOLD="0">Подождите, выполняется поиск устройств.</Control>
+  </Dialog>
+</Source>
